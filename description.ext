@@ -55,15 +55,15 @@ debriefing = 1;
 
 class CfgDebriefing
 {  
-	class END1
-	{
-		title = "MISSION COMPLETED";
-		subtitle = "We made it through another boring Monday...";
-//		description = "Seems like we made it through yet another boring Monday.";
-		pictureBackground = "images\img_overviewN.jpg";
-		picture = "";
-		pictureColor[] = {};
-	};
+    class END1
+    {
+        title = "MISSION COMPLETED";
+        subtitle = "We made it through another boring Monday...";
+//      description = "Seems like we made it through yet another boring Monday.";
+        pictureBackground = "images\img_overviewN.jpg";
+        picture = "";
+        pictureColor[] = {};
+    };
 };
 
 
@@ -73,55 +73,55 @@ class CfgDebriefing
 #include "tb3\loadouts.hpp"
 
 class Extended_PreInit_EventHandlers {
-	class tb3 {
-		init = "call ('tb3\preInit.sqf' call SLX_XEH_COMPILE)";
-	};
+    class tb3 {
+        init = "call ('tb3\preInit.sqf' call SLX_XEH_COMPILE)";
+    };
 };
 
 class CfgSettings {
-	class CBA {
-		class Caching {
-			compile = 0;
-			xeh = 0;
-			functions = 0;
-		};
-	};
+    class CBA {
+        class Caching {
+            compile = 0;
+            xeh = 0;
+            functions = 0;
+        };
+    };
 };
 /* ****************************** */
 
 
 // Parameters available
 class Params
-{	
-	
-	class Time
-	{
-		title = "H-Hour";  // (paramsArray select 0)
-		values[] = {0,1,2,3,4};
-		texts[] = {"0330 (Dawn)","0600 (Morning)","1200 (Default)","1800 (Dusk)","2230 (Night)"};
-		default = 2;
-	};
+{   
+    
+    class Time
+    {
+        title = "H-Hour";  // (paramsArray select 0)
+        values[] = {0,1,2,3,4};
+        texts[] = {"0330 (Dawn)","0600 (Morning)","1200 (Default)","1800 (Dusk)","2230 (Night)"};
+        default = 2;
+    };
     class MHQ  // (paramsArray select 1)
-	{
-		title = "MHQ availability";
-		values[] = {0,1};
-		texts[] = {"Disabled (Default)","Enabled"};
-		default = 0;
-	};
+    {
+        title = "MHQ availability";
+        values[] = {0,1};
+        texts[] = {"Disabled (Default)","Enabled"};
+        default = 0;
+    };
     class Zeus  // (paramsArray select 2)
-	{
-		title = "Zeus availability";
-		values[] = {0,1};
-		texts[] = {"Disabled (Default)","Enabled"};
-		default = 0;
-	};
+    {
+        title = "Zeus availability";
+        values[] = {0,1};
+        texts[] = {"Disabled (Default)","Enabled"};
+        default = 0;
+    };
     class Merlin  // (paramsArray select 2)
-	{
-		title = "Merlin Helicopter Variant";
-		values[] = {0,1,2,3};
-		texts[] = {"Transport (Default)","Armed","CSAR","Cargo"};
-		default = 0;
-	};
+    {
+        title = "Merlin Helicopter Variant";
+        values[] = {0,1,2,3};
+        texts[] = {"Transport (Default)","Armed","CSAR","Cargo"};
+        default = 0;
+    };
 
 };
 
@@ -129,32 +129,32 @@ class Params
 // Adding custom unit insignias (arm patches) to be used in the mission
 class CfgUnitInsignia
 {
-	class TL
-	{
-		displayName = "Team Leader patch"; // Name displayed in Arsenal
-		author = "teriyaki"; // Author displayed in Arsenal
-		texture = "textures\patches\TL.paa"; // Image path
-//		textureVehicle = ""; // Does nothing currently, reserved for future use
-	};
+    class TL
+    {
+        displayName = "Team Leader patch"; // Name displayed in Arsenal
+        author = "teriyaki"; // Author displayed in Arsenal
+        texture = "textures\patches\TL.paa"; // Image path
+//      textureVehicle = ""; // Does nothing currently, reserved for future use
+    };
     class SL
-	{
-		displayName = "Squad Leader patch"; // Name displayed in Arsenal
-		author = "teriyaki"; // Author displayed in Arsenal
-		texture = "textures\patches\SQL.paa"; // Image path
-//		textureVehicle = ""; // Does nothing currently, reserved for future use
-	};
+    {
+        displayName = "Squad Leader patch"; // Name displayed in Arsenal
+        author = "teriyaki"; // Author displayed in Arsenal
+        texture = "textures\patches\SQL.paa"; // Image path
+//      textureVehicle = ""; // Does nothing currently, reserved for future use
+    };
     class JTAC
-	{
-		displayName = "JTAC patch"; // Name displayed in Arsenal
-		author = "teriyaki"; // Author displayed in Arsenal
-		texture = "textures\patches\JTAC.paa"; // Image path
-//		textureVehicle = ""; // Does nothing currently, reserved for future use
-	};
+    {
+        displayName = "JTAC patch"; // Name displayed in Arsenal
+        author = "teriyaki"; // Author displayed in Arsenal
+        texture = "textures\patches\JTAC.paa"; // Image path
+//      textureVehicle = ""; // Does nothing currently, reserved for future use
+    };
     class EOD
-	{
-		displayName = "EOD patch"; // Name displayed in Arsenal
-		author = "teriyaki"; // Author displayed in Arsenal
-		texture = "textures\patches\EOD.paa"; // Image path
-//		textureVehicle = ""; // Does nothing currently, reserved for future use
-	};
+    {
+        displayName = "EOD patch"; // Name displayed in Arsenal
+        author = "teriyaki"; // Author displayed in Arsenal
+        texture = "textures\patches\EOD.paa"; // Image path
+//      textureVehicle = ""; // Does nothing currently, reserved for future use
+    };
 };
