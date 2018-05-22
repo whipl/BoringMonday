@@ -42,21 +42,36 @@ Objectives are custom made and exist from start on. Thus, there is no spawning o
 * ...
 
 ## Unit Structure:
-| Unit | Callsign |
-| ---- | -------- |
+| Rifle Platoon | Callsign |
+| ------------- | -------- |
 | A-COY/1PWRR HQ | T-0 |
 | A-COY/1PWRR | T-2 |
 | A-COY/1PWRR RTO | T-2-0-O |
 | A-COY/1PWRR 1-Section | T-2-1 |
 | A-COY/1PWRR 2-Section | T-2-2 |
+
+| FST Attachment | Callsign |
+| -------------- | -------- |
 | FST Attachment | L-1-1 |
 | FST Attachment FAC | L-1-1-J |
 | FST Attachment MFC | L-1-1-M |
-| EOD Attachment | Blaster |
-| Recce Attachment | Stalker |
+
+| EOD Attachment | Callsign |
+| -------------- | -------- |
+| EOD Team | Blaster |
+
+| Recce Attachment | Callsign |
+| ---------------- | -------- |
+| Sniper Section | Stalker |
+
+| EOD Attachment | Callsign |
+| -------------- | -------- |
 | Mortar Attachment | K-3 |
 | Mortar Attachment Gun-1 | K-3-1 |
 | Mortar Attachment Gun-2 | K-3-2 |
+
+| EOD Attachment | Callsign |
+| -------------- | -------- |
 | Air Attachment Flight-1 | Eagle-1 |
 | Air Attachment Flight-2 | Eagle-2 |
 
