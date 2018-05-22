@@ -99,12 +99,12 @@ switch (side player) do
             <br /><font color='#FFA500' size='15' face='RobotoCondensed'>C. Callsigns</font>
             <br /><font color='#FFA500' size='15' face='RobotoCondensed'>----------------</font>
             <font face='RobotoCondensedLight'>
-            <br /><font color='#FFA500' face='RobotoCondensedBold'></font>A-COY/1PWRR Headquarters  --  T-0
+            <br /><font color='#FFA500' face='RobotoCondensedBold'></font>A-COY/2PWRR Headquarters  --  T-0
             <br />
-            <br /><font color='#FFA500' face='RobotoCondensedBold'></font>A-COY/1PWRR 2-Platoon                --  T-2
-            <br /><font color='#FFA500' face='RobotoCondensedBold'></font>A-COY/1PWRR 2-Platoon RTO          --  T-2-0-O
-            <br /><font color='#FFA500' face='RobotoCondensedBold'></font>A-COY/1PWRR 2-Platoon 1-Section  --  T-2-1 
-            <br /><font color='#FFA500' face='RobotoCondensedBold'></font>A-COY/1PWRR 2-Platoon 2-Section  --  T-2-2
+            <br /><font color='#FFA500' face='RobotoCondensedBold'></font>A-COY/2PWRR 2-Platoon                --  T-2
+            <br /><font color='#FFA500' face='RobotoCondensedBold'></font>A-COY/2PWRR 2-Platoon RTO          --  T-2-0-O
+            <br /><font color='#FFA500' face='RobotoCondensedBold'></font>A-COY/2PWRR 2-Platoon 1-Section  --  T-2-1 
+            <br /><font color='#FFA500' face='RobotoCondensedBold'></font>A-COY/2PWRR 2-Platoon 2-Section  --  T-2-2
             <br />
             <br /><font color='#FFA500' face='RobotoCondensedBold'></font>FST Attachment        --  L-1-1
             <br /><font color='#FFA500' face='RobotoCondensedBold'></font>FST Attachment FAC  --  L-1-1-J
@@ -125,7 +125,7 @@ switch (side player) do
             <br /><font color='#FFA500' size='15' face='RobotoCondensed'>D. Frequencies</font>
             <br /><font color='#FFA500' size='15' face='RobotoCondensed'>--------------------</font>
             <font face='RobotoCondensedLight'>
-            <br /><font color='#FFA500' face='RobotoCondensed'>-1 PWRR Battalion-</font>
+            <br /><font color='#FFA500' face='RobotoCondensed'>-2 PWRR Battalion-</font>
             <br /><font color='#FFA500' face='RobotoCondensedBold'>  </font> Battalion Net           -- 31.250MHz (CH01)
             <br /><font color='#FFA500' face='RobotoCondensedBold'>  </font> A-COY Net                 -- 31.375MHz (CH02)
             <br /><font color='#FFA500' face='RobotoCondensedBold'>    </font> 1st Platoon Net        -- 31.500MHz (CH03)
@@ -250,7 +250,7 @@ switch (side player) do
             <font face='RobotoCondensedLight'>
             <br /><font color='#FFA500' face='RobotoCondensedBold'>1.</font> <font face='RobotoCondensedBold'>Actions on IED:</font> Engage. EOD attachment is to disarm the IEDs by any means possible. Avoid civilian damages where possible.
             <br /><font color='#FFA500' face='RobotoCondensedBold'>2.</font> <font face='RobotoCondensedBold'>H-hour:</font> 16HHMMJMAY11 (parameter depending)
-            <br /><font color='#FFA500' face='RobotoCondensedBold'>3.</font> <font face='RobotoCondensedBold'>Base Unit:</font> 2nd Platoon, Alpha Company, 1 PWRR
+            <br /><font color='#FFA500' face='RobotoCondensedBold'>3.</font> <font face='RobotoCondensedBold'>Base Unit:</font> 2nd Platoon, Alpha Company, 2 PWRR
             <br /><font color='#FFA500' face='RobotoCondensedBold'>4.</font> <font face='RobotoCondensedBold'>Check points:</font> NA
             <br /><font color='#FFA500' face='RobotoCondensedBold'>5.</font> <font face='RobotoCondensedBold'>Objectives/Positions:</font> Reference map.
             <br /><font color='#FFA500' face='RobotoCondensedBold'>6.</font> <font face='RobotoCondensedBold'>Boundaries/Tactical control measures:</font> Max speed outside towns is 50kph, 20kph within city boundaries. This is to prevent overseeing IED's that pose a high threat to friendly forces in the area.
@@ -606,12 +606,12 @@ switch (side player) do
             <br /><font color='#FFA500' size='15' face='RobotoCondensed'>C. Callsigns</font>
             <br /><font color='#FFA500' size='15' face='RobotoCondensed'>----------------</font>
             <font face='RobotoCondensedLight'>
-            <br /><font color='#FFA500' face='RobotoCondensedBold'></font>A-COY/1PWRR Headquarters  --  T-0
+            <br /><font color='#FFA500' face='RobotoCondensedBold'></font>A-COY/2PWRR Headquarters  --  T-0
             <br />
-            <br /><font color='#FFA500' face='RobotoCondensedBold'></font>A-COY/1PWRR 2-Platoon                --  T-2
-            <br /><font color='#FFA500' face='RobotoCondensedBold'></font>A-COY/1PWRR 2-Platoon RTO          --  T-2-0-R
-            <br /><font color='#FFA500' face='RobotoCondensedBold'></font>A-COY/1PWRR 2-Platoon 1-Section  --  T-2-1 
-            <br /><font color='#FFA500' face='RobotoCondensedBold'></font>A-COY/1PWRR 2-Platoon 2-Section  --  T-2-2
+            <br /><font color='#FFA500' face='RobotoCondensedBold'></font>A-COY/2PWRR 2-Platoon                --  T-2
+            <br /><font color='#FFA500' face='RobotoCondensedBold'></font>A-COY/2PWRR 2-Platoon RTO          --  T-2-0-R
+            <br /><font color='#FFA500' face='RobotoCondensedBold'></font>A-COY/2PWRR 2-Platoon 1-Section  --  T-2-1 
+            <br /><font color='#FFA500' face='RobotoCondensedBold'></font>A-COY/2PWRR 2-Platoon 2-Section  --  T-2-2
             <br />
             <br /><font color='#FFA500' face='RobotoCondensedBold'></font>FST Attachment        --  L-1-1
             <br /><font color='#FFA500' face='RobotoCondensedBold'></font>FST Attachment FAC  --  L-1-1-J
@@ -632,7 +632,7 @@ switch (side player) do
             <br /><font color='#FFA500' size='15' face='RobotoCondensed'>D. Frequencies</font>
             <br /><font color='#FFA500' size='15' face='RobotoCondensed'>--------------------</font>
             <font face='RobotoCondensedLight'>
-            <br /><font color='#FFA500' face='RobotoCondensed'>-1 PWRR Battalion-</font>
+            <br /><font color='#FFA500' face='RobotoCondensed'>-2 PWRR Battalion-</font>
             <br /><font color='#FFA500' face='RobotoCondensedBold'>  </font> Battalion Net           -- 31.250MHz (CH01)
             <br /><font color='#FFA500' face='RobotoCondensedBold'>  </font> A-COY Net                 -- 31.375MHz (CH02)
             <br /><font color='#FFA500' face='RobotoCondensedBold'>    </font> 1st Platoon Net        -- 31.500MHz (CH03)
@@ -757,7 +757,7 @@ switch (side player) do
             <font face='RobotoCondensedLight'>
             <br /><font color='#FFA500' face='RobotoCondensedBold'>1.</font> <font face='RobotoCondensedBold'>Actions on IED:</font> Engage. EOD attachment is to disarm the IEDs by any means possible. Avoid civilian damages where possible.
             <br /><font color='#FFA500' face='RobotoCondensedBold'>2.</font> <font face='RobotoCondensedBold'>H-hour:</font> 16HHMMJMAY11 (parameter depending)
-            <br /><font color='#FFA500' face='RobotoCondensedBold'>3.</font> <font face='RobotoCondensedBold'>Base Unit:</font> 2nd Platoon, Alpha Company, 1 PWRR
+            <br /><font color='#FFA500' face='RobotoCondensedBold'>3.</font> <font face='RobotoCondensedBold'>Base Unit:</font> 2nd Platoon, Alpha Company, 2 PWRR
             <br /><font color='#FFA500' face='RobotoCondensedBold'>4.</font> <font face='RobotoCondensedBold'>Check points:</font> NA
             <br /><font color='#FFA500' face='RobotoCondensedBold'>5.</font> <font face='RobotoCondensedBold'>Objectives/Positions:</font> Reference map.
             <br /><font color='#FFA500' face='RobotoCondensedBold'>6.</font> <font face='RobotoCondensedBold'>Boundaries/Tactical control measures:</font> Max speed outside towns is 50kph, 20kph within city boundaries. This is to prevent overseeing IED's that pose a high threat to friendly forces in the area.
