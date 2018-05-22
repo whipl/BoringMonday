@@ -102,7 +102,7 @@ switch (side player) do
             <br /><font color='#FFA500' face='RobotoCondensedBold'></font>A-COY/1PWRR Headquarters  --  T-0
             <br />
             <br /><font color='#FFA500' face='RobotoCondensedBold'></font>A-COY/1PWRR 2-Platoon                --  T-2
-            <br /><font color='#FFA500' face='RobotoCondensedBold'></font>A-COY/1PWRR 2-Platoon RTO          --  T-2-0-R
+            <br /><font color='#FFA500' face='RobotoCondensedBold'></font>A-COY/1PWRR 2-Platoon RTO          --  T-2-0-O
             <br /><font color='#FFA500' face='RobotoCondensedBold'></font>A-COY/1PWRR 2-Platoon 1-Section  --  T-2-1 
             <br /><font color='#FFA500' face='RobotoCondensedBold'></font>A-COY/1PWRR 2-Platoon 2-Section  --  T-2-2
             <br />
