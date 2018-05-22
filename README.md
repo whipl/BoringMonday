@@ -44,11 +44,11 @@ Objectives are custom made and exist from start on. Thus, there is no spawning o
 ## Unit Structure:
 | Unit | Callsign |
 | ------------- | -------- |
-| **A-COY/1PWRR HQ** | **T-0** |
-| A-COY/1PWRR 2-Platoon | T-2 |
-| A-COY/1PWRR 2-Platoon RTO | T-2-0-O |
-| A-COY/1PWRR 2-Platoon 1-Section | T-2-1 |
-| A-COY/1PWRR 2-Platoon 2-Section | T-2-2 |
+| **A-COY/2PWRR HQ** | **T-0** |
+| A-COY/2PWRR 2-Platoon | T-2 |
+| A-COY/2PWRR 2-Platoon RTO | T-2-0-O |
+| A-COY/2PWRR 2-Platoon 1-Section | T-2-1 |
+| A-COY/2PWRR 2-Platoon 2-Section | T-2-2 |
 | **FST Attachment** | **L-1-1** |
 | FST Attachment FAC | L-1-1-J |
 | FST Attachment MFC | L-1-1-M |
