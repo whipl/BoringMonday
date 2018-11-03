@@ -21,12 +21,12 @@ class Header
 
 // Mission loading screen
 author = "Whiplash";
-OnLoadName = "Boring Monday BAF v3.0";
+OnLoadName = "Boring Monday BAF v3.1";
 OnLoadMission = "Another boring day is about to begin for the British forces in Fata region...";
 loadScreen = "images\img_loadscreenN.jpg";
 
 // Mission overview (Mission selection screen)
-briefingName = "CO42 Boring Monday BAF HC ZEUS v3.0";
+briefingName = "CO42 Boring Monday BAF HC ZEUS v3.1";
 overviewText = "Seeder Mission: Counter insurgency operations in Fata region. Stay at base, move out to any of the objectives or make up your own objective. [Expected playtime: 4h (min. players: 1) / AFM / JIP / Respawn / GM]";
 //overviewPicture = "images\img_overview.jpg";
 
