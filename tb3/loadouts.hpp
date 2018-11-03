@@ -1062,11 +1062,12 @@ class TB3_Gear {
                     {"rhsusf_shemagh2_tan",1},
                     {"UK3CB_BAF_H_Beret_PWRR_PRR",1},
                     {"ACRE_PRC117F",1},
+                    {"ITC_ROVER_SIR",1},
                     {"UK3CB_BAF_Soflam_Laserdesignator",1},
                     {"Laserbatteries",1},
                     {"ACE_HuntIR_monitor",1},
-                    {"rhs_mag_an_m8hc",2},
-                    {"rhs_mag_m18_green",2},
+                    {"rhs_mag_an_m8hc",1},
+                    {"rhs_mag_m18_green",1},
                     {"rhs_mag_m18_red",2},
                     {"Chemlight_green",2},
                     {"Chemlight_red",2},
@@ -1579,6 +1580,7 @@ class TB3_Gear {
                     {"ACE_IR_Strobe_Item",1},
                     {"ACRE_PRC148",1},
                     {"ACE_RangeTable_82mm",1},
+                    {"itc_land_tablet_fdc",1},
                     {"UK3CB_BAF_556_30Rnd",3},
                     {"UK3CB_BAF_9_17Rnd",2}
                 };
@@ -2039,6 +2041,7 @@ class TB3_Gear {
             vehCargoItems[] = {
                 {"ACE_wirecutter",1},
                 {"ACE_SpottingScope",2},
+                {"ITC_ROVER_SIR",2},
                 {"ACE_Tripod",1},
                 {"ACE_UAVBattery",2},
                 {"ACE_RangeCard",1},
@@ -2301,6 +2304,8 @@ class TB3_Gear {
             };
             vehCargoItems[] = {
                 {"ToolKit",5},
+                {"ITC_EPLRS",2},
+                {"ITC_ROVER_SIR",2},
                 {"ACE_RangeTable_82mm",2},
                 {"RKSL_optic_LDS",10},
                 {"UK3CB_BAF_Eotech",10},
@@ -2508,6 +2513,7 @@ class TB3_Gear {
             vehCargoItems[] = {
                 {"ToolKit",2},
                 {"ACE_RangeTable_82mm",2},
+                {"itc_land_tablet_fdc",2},
                 {"RKSL_optic_LDS",5},
                 {"UK3CB_BAF_Eotech",5},
                 {"UK3CB_BAF_Flashlight_L131A1",2},
