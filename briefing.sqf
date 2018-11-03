@@ -99,27 +99,45 @@ switch (side player) do
             <br /><font color='#FFA500' size='15' face='RobotoCondensed'>C. Callsigns</font>
             <br /><font color='#FFA500' size='15' face='RobotoCondensed'>----------------</font>
             <font face='RobotoCondensedLight'>
+            <br /><font color='#FFA500' face='RobotoCondensed'>-A-COY/2PWRR-</font>
             <br /><font color='#FFA500' face='RobotoCondensedBold'></font>A-COY/2PWRR Headquarters  --  T-0
             <br />
-            <br /><font color='#FFA500' face='RobotoCondensedBold'></font>A-COY/2PWRR 2-Platoon                --  T-2
-            <br /><font color='#FFA500' face='RobotoCondensedBold'></font>A-COY/2PWRR 2-Platoon RTO          --  T-2-0-O
-            <br /><font color='#FFA500' face='RobotoCondensedBold'></font>A-COY/2PWRR 2-Platoon 1-Section  --  T-2-1 
-            <br /><font color='#FFA500' face='RobotoCondensedBold'></font>A-COY/2PWRR 2-Platoon 2-Section  --  T-2-2
+            <br /><font color='#FFA500' face='RobotoCondensed'>-Infantry Platoon HQ-</font>
+            <br /><font color='#FFA500' face='RobotoCondensedBold'></font>A-COY/2PWRR 2-PLT                   --  T-2
+            <br /><font color='#FFA500' face='RobotoCondensedBold'></font>A-COY/2PWRR 2-PLT Signaller         --  T-2-0
+            <br /><font color='#FFA500' face='RobotoCondensedBold'></font>A-COY/2PWRR 2-PLT OC (Mission CO)   --  T-2-A
+            <br /><font color='#FFA500' face='RobotoCondensedBold'></font>A-COY/2PWRR 2-PLT SGT               --  T-2-B
+            <br /><font color='#FFA500' face='RobotoCondensed'>-Infantry Platoon Sections-</font>
+            <br /><font color='#FFA500' face='RobotoCondensedBold'></font>A-COY/2PWRR 2-PLT 1-SEC             --  T-2-1
+            <br /><font color='#FFA500' face='RobotoCondensedBold'></font>A-COY/2PWRR 2-PLT 1-SEC SL  (FT C)  --  T-2-1-C
+            <br /><font color='#FFA500' face='RobotoCondensedBold'></font>A-COY/2PWRR 2-PLT 1-SEC 2IC (FT D)  --  T-2-1-D
+            <br /><font color='#FFA500' face='RobotoCondensedBold'></font>A-COY/2PWRR 2-PLT 2-SEC             --  T-2-2
+            <br /><font color='#FFA500' face='RobotoCondensedBold'></font>A-COY/2PWRR 2-PLT 2-SEC SL  (FT C)  --  T-2-2-C
+            <br /><font color='#FFA500' face='RobotoCondensedBold'></font>A-COY/2PWRR 2-PLT 2-SEC 2IC (FT D)  --  T-2-2-D
             <br />
-            <br /><font color='#FFA500' face='RobotoCondensedBold'></font>FST Attachment        --  L-1-1
-            <br /><font color='#FFA500' face='RobotoCondensedBold'></font>FST Attachment FAC  --  L-1-1-J
-            <br /><font color='#FFA500' face='RobotoCondensedBold'></font>FST Attachment MFC  --  L-1-1-M
+            <br /><font color='#FFA500' face='RobotoCondensed'>-Recce Attachment-</font>
+            <br /><font color='#FFA500' face='RobotoCondensedBold'></font>D-COY/2PWRR 1-PLT 1-SEC             --  K-2-4
+            <br /><font color='#FFA500' face='RobotoCondensedBold'></font>D-COY/2PWRR 1-PLT 1-SEC SL  (FT C)  --  K-2-4-C
+            <br /><font color='#FFA500' face='RobotoCondensedBold'></font>D-COY/2PWRR 1-PLT 1-SEC 2IC (FT D)  --  K-2-4-D
             <br />
-            <br /><font color='#FFA500' face='RobotoCondensedBold'></font>EOD Attachment  --  Blaster
+            <br /><font color='#FFA500' face='RobotoCondensed'>-Mortar Attachment-</font>
+            <br /><font color='#FFA500' face='RobotoCondensedBold'></font>D-COY/2PWRR 3-PLT 3-SEC        --  K-2-5
+            <br /><font color='#FFA500' face='RobotoCondensedBold'></font>D-COY/2PWRR 3-PLT 3-SEC Gun-1  --  K-2-5-C
+            <br /><font color='#FFA500' face='RobotoCondensedBold'></font>D-COY/2PWRR 3-PLT 3-SEC Gun-2  --  K-2-5-D
             <br />
-            <br /><font color='#FFA500' face='RobotoCondensedBold'></font>Recce Attachment  --  Stalker
+            <br /><font color='#FFA500' face='RobotoCondensed'>-FST Attachment-</font>
+            <br /><font color='#FFA500' face='RobotoCondensedBold'></font>FST Attachment      --  L-2-6
+            <br /><font color='#FFA500' face='RobotoCondensedBold'></font>FST Attachment SL   --  L-2-6-C
+            <br /><font color='#FFA500' face='RobotoCondensedBold'></font>FST Attachment 2IC  --  L-2-6-D
+            <br /><font color='#FFA500' face='RobotoCondensedBold'></font>FST Attachment FAC  --  L-2-6-J
+            <br /><font color='#FFA500' face='RobotoCondensedBold'></font>FST Attachment MFC  --  L-2-6-M
             <br />
-            <br /><font color='#FFA500' face='RobotoCondensedBold'></font>Mortar Attachment          --  K-3
-            <br /><font color='#FFA500' face='RobotoCondensedBold'></font>Mortar Attachment Gun-1  --  K-3-1
-            <br /><font color='#FFA500' face='RobotoCondensedBold'></font>Mortar Attachment Gun-2  --  K-3-2
-            <br />
+            <br /><font color='#FFA500' face='RobotoCondensed'>-Air Attachment-</font>
             <br /><font color='#FFA500' face='RobotoCondensedBold'></font>Air Attachment Flight-1  --  Eagle-1
             <br /><font color='#FFA500' face='RobotoCondensedBold'></font>Air Attachment Flight-2  --  Eagle-2
+            <br />
+            <br /><font color='#FFA500' face='RobotoCondensed'>-EOD Attachment-</font>
+            <br /><font color='#FFA500' face='RobotoCondensedBold'></font>EOD Attachment  --  Blaster
             <br /></font>
             <br /><font color='#FFA500' size='15' face='RobotoCondensed'>--------------------</font>
             <br /><font color='#FFA500' size='15' face='RobotoCondensed'>D. Frequencies</font>
@@ -141,10 +159,10 @@ switch (side player) do
             <br /><font color='#FFA500' face='RobotoCondensedBold'>  </font> T-2-1    --  46.000MHz (CH01)
             <br /><font color='#FFA500' face='RobotoCondensedBold'>  </font> T-2-2    --  47.000MHz (CH02)
             <br /><font color='#FFA500' face='RobotoCondensedBold'>  </font> T-2-0    --  48.000MHz (CH03)
-            <br /><font color='#FFA500' face='RobotoCondensedBold'>  </font> L-1-1    --  49.000MHz (CH04)
-            <br /><font color='#FFA500' face='RobotoCondensedBold'>  </font> K-3-0    --  50.000MHz (CH05)
-            <br /><font color='#FFA500' face='RobotoCondensedBold'>  </font> Blaster  --  51.000MHz (CH06)
-            <br /><font color='#FFA500' face='RobotoCondensedBold'>  </font> Stalker  --  52.000MHz (CH07)
+            <br /><font color='#FFA500' face='RobotoCondensedBold'>  </font> K-2-4    --  49.000MHz (CH04)
+            <br /><font color='#FFA500' face='RobotoCondensedBold'>  </font> K-2-5    --  50.000MHz (CH05)
+            <br /><font color='#FFA500' face='RobotoCondensedBold'>  </font> L-2-6    --  51.000MHz (CH06)
+            <br /><font color='#FFA500' face='RobotoCondensedBold'>  </font> Blaster  --  52.000MHz (CH07)
             <br /></font>
             <br /><font color='#FFA500' size='15' face='RobotoCondensed'>--------------------------------------</font>
             <br /><font color='#FFA500' size='15' face='RobotoCondensed'>E. Pyrotechnics and Signals</font>
@@ -606,27 +624,45 @@ switch (side player) do
             <br /><font color='#FFA500' size='15' face='RobotoCondensed'>C. Callsigns</font>
             <br /><font color='#FFA500' size='15' face='RobotoCondensed'>----------------</font>
             <font face='RobotoCondensedLight'>
+            <br /><font color='#FFA500' face='RobotoCondensed'>-A-COY/2PWRR-</font>
             <br /><font color='#FFA500' face='RobotoCondensedBold'></font>A-COY/2PWRR Headquarters  --  T-0
             <br />
-            <br /><font color='#FFA500' face='RobotoCondensedBold'></font>A-COY/2PWRR 2-Platoon                --  T-2
-            <br /><font color='#FFA500' face='RobotoCondensedBold'></font>A-COY/2PWRR 2-Platoon RTO          --  T-2-0-R
-            <br /><font color='#FFA500' face='RobotoCondensedBold'></font>A-COY/2PWRR 2-Platoon 1-Section  --  T-2-1 
-            <br /><font color='#FFA500' face='RobotoCondensedBold'></font>A-COY/2PWRR 2-Platoon 2-Section  --  T-2-2
+            <br /><font color='#FFA500' face='RobotoCondensed'>-Infantry Platoon HQ-</font>
+            <br /><font color='#FFA500' face='RobotoCondensedBold'></font>A-COY/2PWRR 2-PLT                   --  T-2
+            <br /><font color='#FFA500' face='RobotoCondensedBold'></font>A-COY/2PWRR 2-PLT Signaller         --  T-2-0
+            <br /><font color='#FFA500' face='RobotoCondensedBold'></font>A-COY/2PWRR 2-PLT OC (Mission CO)   --  T-2-A
+            <br /><font color='#FFA500' face='RobotoCondensedBold'></font>A-COY/2PWRR 2-PLT SGT               --  T-2-B
+            <br /><font color='#FFA500' face='RobotoCondensed'>-Infantry Platoon Sections-</font>
+            <br /><font color='#FFA500' face='RobotoCondensedBold'></font>A-COY/2PWRR 2-PLT 1-SEC             --  T-2-1
+            <br /><font color='#FFA500' face='RobotoCondensedBold'></font>A-COY/2PWRR 2-PLT 1-SEC SL  (FT C)  --  T-2-1-C
+            <br /><font color='#FFA500' face='RobotoCondensedBold'></font>A-COY/2PWRR 2-PLT 1-SEC 2IC (FT D)  --  T-2-1-D
+            <br /><font color='#FFA500' face='RobotoCondensedBold'></font>A-COY/2PWRR 2-PLT 2-SEC             --  T-2-2
+            <br /><font color='#FFA500' face='RobotoCondensedBold'></font>A-COY/2PWRR 2-PLT 2-SEC SL  (FT C)  --  T-2-2-C
+            <br /><font color='#FFA500' face='RobotoCondensedBold'></font>A-COY/2PWRR 2-PLT 2-SEC 2IC (FT D)  --  T-2-2-D
             <br />
-            <br /><font color='#FFA500' face='RobotoCondensedBold'></font>FST Attachment        --  L-1-1
-            <br /><font color='#FFA500' face='RobotoCondensedBold'></font>FST Attachment FAC  --  L-1-1-J
-            <br /><font color='#FFA500' face='RobotoCondensedBold'></font>FST Attachment MFC  --  L-1-1-M
+            <br /><font color='#FFA500' face='RobotoCondensed'>-Recce Attachment-</font>
+            <br /><font color='#FFA500' face='RobotoCondensedBold'></font>D-COY/2PWRR 1-PLT 1-SEC             --  K-2-4
+            <br /><font color='#FFA500' face='RobotoCondensedBold'></font>D-COY/2PWRR 1-PLT 1-SEC SL  (FT C)  --  K-2-4-C
+            <br /><font color='#FFA500' face='RobotoCondensedBold'></font>D-COY/2PWRR 1-PLT 1-SEC 2IC (FT D)  --  K-2-4-D
             <br />
-            <br /><font color='#FFA500' face='RobotoCondensedBold'></font>EOD Attachment  --  Blaster
+            <br /><font color='#FFA500' face='RobotoCondensed'>-Mortar Attachment-</font>
+            <br /><font color='#FFA500' face='RobotoCondensedBold'></font>D-COY/2PWRR 3-PLT 3-SEC        --  K-2-5
+            <br /><font color='#FFA500' face='RobotoCondensedBold'></font>D-COY/2PWRR 3-PLT 3-SEC Gun-1  --  K-2-5-C
+            <br /><font color='#FFA500' face='RobotoCondensedBold'></font>D-COY/2PWRR 3-PLT 3-SEC Gun-2  --  K-2-5-D
             <br />
-            <br /><font color='#FFA500' face='RobotoCondensedBold'></font>Recce Attachment  --  Stalker
+            <br /><font color='#FFA500' face='RobotoCondensed'>-FST Attachment-</font>
+            <br /><font color='#FFA500' face='RobotoCondensedBold'></font>FST Attachment      --  L-2-6
+            <br /><font color='#FFA500' face='RobotoCondensedBold'></font>FST Attachment SL   --  L-2-6-C
+            <br /><font color='#FFA500' face='RobotoCondensedBold'></font>FST Attachment 2IC  --  L-2-6-D
+            <br /><font color='#FFA500' face='RobotoCondensedBold'></font>FST Attachment FAC  --  L-2-6-J
+            <br /><font color='#FFA500' face='RobotoCondensedBold'></font>FST Attachment MFC  --  L-2-6-M
             <br />
-            <br /><font color='#FFA500' face='RobotoCondensedBold'></font>Mortar Attachment          --  K-3
-            <br /><font color='#FFA500' face='RobotoCondensedBold'></font>Mortar Attachment Gun-1  --  K-3-1
-            <br /><font color='#FFA500' face='RobotoCondensedBold'></font>Mortar Attachment Gun-2  --  K-3-2
-            <br />
+            <br /><font color='#FFA500' face='RobotoCondensed'>-Air Attachment-</font>
             <br /><font color='#FFA500' face='RobotoCondensedBold'></font>Air Attachment Flight-1  --  Eagle-1
             <br /><font color='#FFA500' face='RobotoCondensedBold'></font>Air Attachment Flight-2  --  Eagle-2
+            <br />
+            <br /><font color='#FFA500' face='RobotoCondensed'>-EOD Attachment-</font>
+            <br /><font color='#FFA500' face='RobotoCondensedBold'></font>EOD Attachment  --  Blaster
             <br /></font>
             <br /><font color='#FFA500' size='15' face='RobotoCondensed'>--------------------</font>
             <br /><font color='#FFA500' size='15' face='RobotoCondensed'>D. Frequencies</font>
