@@ -16,6 +16,7 @@ v3.1
 =====
 #added notes to briefing regarding new ACE pylon system to utilize the Apache
 #added ITC items for air/ground
+#added new 3CB vehicles (MRAP and UGV)
 #changed COMSIG
 
 v2.0/3.0

@@ -2149,6 +2149,41 @@ class TB3_Gear {
                 {"UK3CB_BAF_B_Bergen_MTP_Rifleman_L_D",1}
             };
         };
+        class BAF_MRAP_ARMED_GPMG {
+            vehCargoWeapons[] = {
+                {"UK3CB_BAF_AT4_CS_AT_Launcher",1}
+            };
+            vehCargoMagazines[] = {
+                {"UK3CB_BAF_762_200Rnd",5},
+                {"UK3CB_BAF_556_30Rnd",20},
+                {"UK3CB_BAF_556_30Rnd_T",5},
+                {"UK3CB_BAF_556_200Rnd",5},
+                {"UK3CB_BAF_762_100Rnd_T",5},
+                {"UK3CB_BAF_762_L42A1_20Rnd",10},
+                {"UK3CB_BAF_762_L42A1_20Rnd_T",5},
+                {"rhs_mag_an_m8hc",10},
+                {"rhs_mag_m67",5},
+                {"ACE_HandFlare_Red",2},
+                {"ACE_HandFlare_Yellow",2}
+            };
+            vehCargoItems[] = {
+                {"ACE_wirecutter",1},
+                {"ACE_Sandbag_empty",20},
+                {"Chemlight_green",1},      // First Aid Vehicle
+                {"ACE_fieldDressing",8},    // First Aid Vehicle
+                {"ACE_elasticBandage",8},   // First Aid Vehicle
+                {"ACE_packingBandage",5},   // First Aid Vehicle
+                {"ACE_quikclot",5},         // First Aid Vehicle
+                {"ACE_morphine",5},         // First Aid Vehicle
+                {"ACE_epinephrine",3},      // First Aid Vehicle
+                {"ACE_tourniquet",3},       // First Aid Vehicle
+                {"ACE_personalAidKit",3},   // First Aid Vehicle
+                {"ACE_bodyBag",2}           // First Aid Vehicle
+            };
+            vehCargoRucks[] = {
+                {"UK3CB_BAF_B_Bergen_MTP_Rifleman_L_D",1}
+            };
+        };
         class BAF_BULLDOG_ARMED_HMG {
             vehCargoWeapons[] = {
                 {"UK3CB_BAF_AT4_CS_AT_Launcher",2}
