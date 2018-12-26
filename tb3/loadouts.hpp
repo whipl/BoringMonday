@@ -1783,6 +1783,34 @@ class TB3_Gear {
                 {"UK3CB_BAF_B_Bergen_MTP_Rifleman_L_D",1}
             };
         };
+        class BAF_LAND_UGV {
+            vehCargoWeapons[] = {
+                {"UK3CB_BAF_AT4_CS_AT_Launcher",0}
+            };
+            vehCargoMagazines[] = {
+                {"rhs_mag_an_m8hc",10},
+                {"ACE_HandFlare_Red",2},
+                {"ACE_HandFlare_Yellow",2}
+            };
+            vehCargoItems[] = {
+                {"B_UavTerminal",1},
+                {"ACE_wirecutter",2},
+                {"ACE_Sandbag_empty",40},
+                {"Chemlight_green",1},      // First Aid Vehicle
+                {"ACE_fieldDressing",8},    // First Aid Vehicle
+                {"ACE_elasticBandage",8},   // First Aid Vehicle
+                {"ACE_packingBandage",5},   // First Aid Vehicle
+                {"ACE_quikclot",5},         // First Aid Vehicle
+                {"ACE_morphine",5},         // First Aid Vehicle
+                {"ACE_epinephrine",3},      // First Aid Vehicle
+                {"ACE_tourniquet",3},       // First Aid Vehicle
+                {"ACE_personalAidKit",3},   // First Aid Vehicle
+                {"ACE_bodyBag",2}           // First Aid Vehicle
+            };
+            vehCargoRucks[] = {
+                {"UK3CB_BAF_B_Bergen_MTP_Rifleman_L_D",1}
+            };
+        };
         class BAF_LAND_ARMED_GPMG {
             vehCargoWeapons[] = {
                 {"UK3CB_BAF_Javelin_Slung_Tube",1},
