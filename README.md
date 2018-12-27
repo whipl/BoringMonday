@@ -3,7 +3,7 @@
 </p>
 <p align="center">
     <a href="https://github.com/whipl/BoringMonday/releases/latest">
-        <img src="https://img.shields.io/badge/Release-v2.0-red.svg" alt="Release">
+        <img src="https://img.shields.io/badge/Release-v3-red.svg" alt="Release">
     </a>
     <a href="https://github.com/whipl/BoringMonday/issues">
         <img src="https://img.shields.io/github/issues-raw/whipl/BoringMonday.svg?label=Issues" alt="FC2 Issues">
@@ -40,6 +40,26 @@ Objectives are custom made and exist from start on. Thus, there is no spawning o
 * Great flexibility for CO's to execute the objectives the way they want
 * Enemy presence and behavior based on time of day
 * ...
+
+## Unit Structure:
+| Unit | Callsign |
+| ------------- | -------- |
+| **A-COY/2PWRR HQ** | **T-0** |
+| A-COY/2PWRR 2-Platoon | T-2 |
+| A-COY/2PWRR 2-Platoon RTO | T-2-0-O |
+| A-COY/2PWRR 2-Platoon 1-Section | T-2-1 |
+| A-COY/2PWRR 2-Platoon 2-Section | T-2-2 |
+| **FST Attachment** | **L-1-1** |
+| FST Attachment FAC | L-1-1-J |
+| FST Attachment MFC | L-1-1-M |
+| **EOD Attachment** | **Blaster** |
+| **Sniper Attachment** | **Stalker** |
+| **Mortar Attachment** | **K-3** |
+| Mortar Attachment Gun-1 | K-3-1 |
+| Mortar Attachment Gun-2 | K-3-2 |
+| **Air Attachment** | **Eagle** |
+| Air Attachment Flight-1 | Eagle-1 |
+| Air Attachment Flight-2 | Eagle-2 |
 
 ## Notes
 Mission is dependend on the [United Operations](http://www.unitedoperations.net) Modpack.

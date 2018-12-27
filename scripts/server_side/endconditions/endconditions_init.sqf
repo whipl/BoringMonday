@@ -5,7 +5,7 @@
 /* ==================================================== */
 
 // Execute from the server.
-// Place a Game Logic on the map named	"loc_center"	in the center of the AO. Think of it as a circle, Game Logic must be within the center of that circle.
+// Place a Game Logic on the map named  "loc_center"    in the center of the AO. Think of it as a circle, Game Logic must be within the center of that circle.
 // Place a Game Logic for each FOB.
 
 // Currently 1 end conditions is present. All units regrouped at the FOBs.
@@ -24,9 +24,9 @@ _condition = true;
 
 while {true} do
 {
-	sleep 15;
+    sleep 15;
  
-	// All western units are within specific ranges of the FOB's. All units within the FOB's together are as many as all units within 7000m of the center.
+    // All western units are within specific ranges of the FOB's. All units within the FOB's together are as many as all units within 7000m of the center.
 //    while { ({side _x == west && (_x distance loc_fobE) < 300} count allUnits) == ({side _x == west && (_x distance loc_center) < 7000} count allUnits) } do
     while { (({side _x == west && (_x distance loc_fobE) < 300} count allUnits) + ({side _x == west && (_x distance loc_fobN) < 200} count allUnits) + ({side _x == west && (_x distance loc_opA) < 100} count allUnits) + ({side _x == west && (_x distance loc_opI) < 50} count allUnits))  == ({side _x == west && (_x distance loc_center) < 7000} count allUnits) } do
     {

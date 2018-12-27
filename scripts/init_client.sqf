@@ -14,58 +14,58 @@
 
 
 /* ************************************************************************************************************************************************************************************* */
-/* ****		Client Commands	    ******************************************************************************************************************************************************** */
+/* ****     Client Commands     ******************************************************************************************************************************************************** */
 /* ************************************************************************************************************************************************************************************* */
 
 
 // ***************************** //
-// ****		non-JIP		******** // ********************************************************************************************************************************** //
+// ****     non-JIP     ******** // ********************************************************************************************************************************** //
 // ***************************** //
 
 if (!(isNull player)) then {
 
-	//Set View Distance
-//	setViewDistance 4000;
+    //Set View Distance
+//  setViewDistance 4000;
 //^Please do not fuck around with players local graphic settings.^
     
-	// Radios!
-	0 fadeRadio 0;		//mute in-game radio commands
-	enableRadio false;
-	enableSentences false;
-		
-	//Execute Game Scripts
-	nonJIP = [] execVM "briefing.sqf";
-//	nonJIP = [] execVM "scripts\acre_init.sqf";
-	nonJIP = [] execVM "scripts\client_side\acre.sqf";
+    // Radios!
+    0 fadeRadio 0;      //mute in-game radio commands
+    enableRadio false;
+    enableSentences false;
+        
+    //Execute Game Scripts
+    nonJIP = [] execVM "briefing.sqf";
+//  nonJIP = [] execVM "scripts\acre_init.sqf";
+    nonJIP = [] execVM "scripts\client_side\acre.sqf";
 };
 
 // ***************************** //
-// ****		JIP		************ // ********************************************************************************************************************************** //
+// ****     JIP     ************ // ********************************************************************************************************************************** //
 // ***************************** //
 
 if (!isServer && isNull player) then {
-	
-	waitUntil {!isNull player};
+    
+    waitUntil {!isNull player};
 
-	//Set View Distance
-//	setViewDistance 4000;
+    //Set View Distance
+//  setViewDistance 4000;
 // NO!
 
-	//Misc. Radio/Weapon
-	0 fadeRadio 0;		//mute in-game radio commands
-	enableRadio false;
-	enableSentences false;
-		
-	//Execute Game Scripts
-	JIP = [] execVM "briefing.sqf";
-//	JIP = [] execVM "scripts\acre_init.sqf";
-	JIP = [] execVM "scripts\client_side\acre.sqf";
-	JIP = [] execVM "scripts\initTeleportToSL.sqf";		// uncomment if teleport is needed
+    //Misc. Radio/Weapon
+    0 fadeRadio 0;      //mute in-game radio commands
+    enableRadio false;
+    enableSentences false;
+        
+    //Execute Game Scripts
+    JIP = [] execVM "briefing.sqf";
+//  JIP = [] execVM "scripts\acre_init.sqf";
+    JIP = [] execVM "scripts\client_side\acre.sqf";
+    JIP = [] execVM "scripts\initTeleportToSL.sqf";     // uncomment if teleport is needed
 };
 
 
 // ***************************** //
-// ****		Scripts		******** // ********************************************************************************************************************************** //
+// ****     Scripts     ******** // ********************************************************************************************************************************** //
 // ***************************** //
 
 // Things to be executed by everyone go below here
@@ -74,5 +74,5 @@ if (!isServer && isNull player) then {
 
 
 // ***************************** //
-// ****		END		************ // ********************************************************************************************************************************** //
+// ****     END     ************ // ********************************************************************************************************************************** //
 // ***************************** //
