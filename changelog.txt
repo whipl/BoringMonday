@@ -12,6 +12,11 @@
 
 
 
+v3.2
+=====
+#added ACEX Field Rations
+#added 3CB Trucks and logistics
+
 v3.1
 =====
 #added notes to briefing regarding new ACE pylon system to utilize the Apache

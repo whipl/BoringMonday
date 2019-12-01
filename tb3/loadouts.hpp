@@ -20,6 +20,7 @@ class TB3_Gear {
                 {"ACRE_PRC343",1},
                 {"ACE_EarPlugs",1},
                 {"ACE_MapTools",1},
+                {"ACE_Canteen",1},
                 {"Chemlight_green",1},      // IFAK
                 {"ACE_fieldDressing",4},    // IFAK
                 {"ACE_elasticBandage",4},   // IFAK
@@ -78,6 +79,7 @@ class TB3_Gear {
             uniformContents[] = {
                 {"ACE_EarPlugs",1},
                 {"ACE_MapTools",1},
+                {"ACE_Canteen",1},
                 {"Chemlight_green",1},      // IFAK
                 {"ACE_fieldDressing",4},    // IFAK
                 {"ACE_elasticBandage",4},   // IFAK
@@ -114,6 +116,7 @@ class TB3_Gear {
             uniformContents[] = {
                 {"ACE_EarPlugs",1},
                 {"ACE_MapTools",1},
+                {"ACE_Canteen",1},
                 {"Chemlight_green",1},      // IFAK
                 {"ACE_fieldDressing",4},    // IFAK
                 {"ACE_elasticBandage",4},   // IFAK
@@ -152,6 +155,7 @@ class TB3_Gear {
                     {"ACRE_PRC343",1},
                     {"ACE_EarPlugs",1},
                     {"ACE_MapTools",1},
+                    {"ACE_Canteen",1},
                     {"Chemlight_green",1},      // IFAK
                     {"ACE_fieldDressing",4},    // IFAK
                     {"ACE_elasticBandage",4},   // IFAK
@@ -179,6 +183,7 @@ class TB3_Gear {
                 backpackContents[] = {
                     {"UK3CB_BAF_G_Tactical_Black",1}, // Different color for different units
                     {"UK3CB_BAF_H_Beret_PWRR_PRR",1},
+                    {"ACE_MRE_ChickenTikkaMasala",1},
                     {"ACE_Sandbag_empty",1},
                     {"ACE_HuntIR_monitor",1},
                     {"UK3CB_BAF_556_30Rnd",3},
@@ -210,6 +215,7 @@ class TB3_Gear {
                     {"ACRE_PRC343",1},
                     {"ACE_EarPlugs",1},
                     {"ACE_MapTools",1},
+                    {"ACE_Canteen",1},
                     {"Chemlight_green",1},      // IFAK
                     {"ACE_fieldDressing",4},    // IFAK
                     {"ACE_elasticBandage",4},   // IFAK
@@ -237,6 +243,7 @@ class TB3_Gear {
                 backpackContents[] = {
                     {"UK3CB_BAF_G_Tactical_Clear",1}, // Different color for different units
                     {"UK3CB_BAF_H_Beret_PWRR_PRR",1},
+                    {"ACE_MRE_SteakVegetables",1},
                     {"ACE_Sandbag_empty",1},
                     {"ACE_HuntIR_monitor",1},
                     {"UK3CB_BAF_556_30Rnd",3},
@@ -269,6 +276,7 @@ class TB3_Gear {
                     {"ACRE_PRC343",1},
                     {"ACE_EarPlugs",1},
                     {"ACE_MapTools",1},
+                    {"ACE_Canteen",1},
                     {"Chemlight_green",1},      // IFAK
                     {"ACE_fieldDressing",4},    // IFAK
                     {"ACE_elasticBandage",4},   // IFAK
@@ -295,10 +303,9 @@ class TB3_Gear {
                 backpackContents[] = {
                     {"UK3CB_BAF_G_Tactical_Orange",1}, // Different color for different units
                     {"UK3CB_BAF_H_Beret_PWRR_PRR",1},
-                    {"ACE_Sandbag_empty",1},
+                    {"ACE_MRE_BeefStew",1},
                     {"ACRE_PRC117F",1},
-                    {"rhs_mag_m18_green",1},
-                    {"rhs_mag_m18_red",1},
+                    {"ACRE_VHF30108",1},
                     {"Chemlight_green",1},
                     {"Chemlight_red",1},
                     {"Chemlight_yellow",1}
@@ -321,6 +328,7 @@ class TB3_Gear {
                     {"ACRE_PRC343",1},
                     {"ACE_EarPlugs",1},
                     {"ACE_MapTools",1},
+                    {"ACE_Canteen",1},
                     {"Chemlight_green",1},      // IFAK
                     {"ACE_fieldDressing",4},    // IFAK
                     {"ACE_elasticBandage",4},   // IFAK
@@ -349,6 +357,7 @@ class TB3_Gear {
                 backpackContents[] = {
                     {"UK3CB_BAF_G_Tactical_Clear",1}, // Different color for different units
                     {"UK3CB_BAF_H_Beret_PWRR",1},
+                    {"ACE_MRE_ChickenHerbDumplings",1},
                     {"ACE_fieldDressing",10},       // Medicpack
                     {"ACE_elasticBandage",10},      // Medicpack
                     {"ACE_packingBandage",10},      // Medicpack
@@ -383,6 +392,7 @@ class TB3_Gear {
                     {"ACRE_PRC343",1},
                     {"ACE_EarPlugs",1},
                     {"ACE_MapTools",1},
+                    {"ACE_Canteen",1},
                     {"Chemlight_green",1},      // IFAK
                     {"ACE_fieldDressing",4},    // IFAK
                     {"ACE_elasticBandage",4},   // IFAK
@@ -412,6 +422,7 @@ class TB3_Gear {
                 backpackContents[] = {
                     {"UK3CB_BAF_G_Tactical_Clear",1}, // Different color for different units
                     {"UK3CB_BAF_H_Beret_PWRR",1},
+                    {"ACE_MRE_LambCurry",1},
                     {"ACE_fieldDressing",10},       // Medicpack
                     {"ACE_elasticBandage",10},      // Medicpack
                     {"ACE_packingBandage",10},      // Medicpack
@@ -447,6 +458,7 @@ class TB3_Gear {
                     {"ACRE_PRC343",1},
                     {"ACE_EarPlugs",1},
                     {"ACE_MapTools",1},
+                    {"ACE_Canteen",1},
                     {"Chemlight_green",1},      // IFAK
                     {"ACE_fieldDressing",4},    // IFAK
                     {"ACE_elasticBandage",4},   // IFAK
@@ -478,6 +490,7 @@ class TB3_Gear {
                 backpackContents[] = {
                     {"UK3CB_BAF_G_Tactical_Black",1}, // Different color for different units
                     {"UK3CB_BAF_H_Beret_PWRR_PRR",1},
+                    {"ACE_MRE_SteakVegetables",1},
                     {"ACE_Sandbag_empty",1},
                     {"ACE_HuntIR_monitor",1},
                     {"UK3CB_BAF_556_30Rnd",3},
@@ -514,6 +527,7 @@ class TB3_Gear {
                     {"ACRE_PRC343",1},
                     {"ACE_EarPlugs",1},
                     {"ACE_MapTools",1},
+                    {"ACE_Canteen",1},
                     {"Chemlight_green",1},      // IFAK
                     {"ACE_fieldDressing",4},    // IFAK
                     {"ACE_elasticBandage",4},   // IFAK
@@ -542,6 +556,7 @@ class TB3_Gear {
                 backpackContents[] = {
                     {"UK3CB_BAF_G_Tactical_Clear",1}, // Different color for different units
                     {"UK3CB_BAF_H_Beret_PWRR_PRR",1},
+                    {"ACE_MRE_LambCurry",1},
                     {"ACE_Sandbag_empty",1},
                     {"UK3CB_BAF_556_30Rnd",3},
                     {"UK3CB_BAF_556_30Rnd_T",1},
@@ -574,6 +589,7 @@ class TB3_Gear {
                     {"ACRE_PRC343",1},
                     {"ACE_EarPlugs",1},
                     {"ACE_MapTools",1},
+                    {"ACE_Canteen",1},
                     {"Chemlight_green",1},      // IFAK
                     {"ACE_fieldDressing",4},    // IFAK
                     {"ACE_elasticBandage",4},   // IFAK
@@ -598,6 +614,7 @@ class TB3_Gear {
                 backpackContents[] = {
                     {"UK3CB_BAF_G_Tactical_Orange",1}, // Different color for different units
                     {"UK3CB_BAF_H_Beret_PWRR",1},
+                    {"ACE_MRE_MeatballsPasta",1},
                     {"ACE_Sandbag_empty",1},
                     {"UK3CB_BAF_L128A1",1},
                     {"UK3CB_BAF_Kite",1},
@@ -630,6 +647,7 @@ class TB3_Gear {
                     {"ACRE_PRC343",1},
                     {"ACE_EarPlugs",1},
                     {"ACE_MapTools",1},
+                    {"ACE_Canteen",1},
                     {"Chemlight_green",1},      // IFAK
                     {"ACE_fieldDressing",4},    // IFAK
                     {"ACE_elasticBandage",4},   // IFAK
@@ -654,6 +672,7 @@ class TB3_Gear {
                 backpackContents[] = {
                     {"UK3CB_BAF_G_Tactical_Orange",1}, // Different color for different units
                     {"UK3CB_BAF_H_Beret_PWRR",1},
+                    {"ACE_MRE_BeefStew",1},
                     {"ACE_Sandbag_empty",1},
                     {"UK3CB_BAF_L128A1",1},
                     {"UK3CB_BAF_Kite",1},
@@ -686,6 +705,7 @@ class TB3_Gear {
                     {"ACRE_PRC343",1},
                     {"ACE_EarPlugs",1},
                     {"ACE_MapTools",1},
+                    {"ACE_Canteen",1},
                     {"Chemlight_green",1},      // IFAK
                     {"ACE_fieldDressing",4},    // IFAK
                     {"ACE_elasticBandage",4},   // IFAK
@@ -709,6 +729,7 @@ class TB3_Gear {
                 backpackContents[] = {
                     {"UK3CB_BAF_G_Tactical_Orange",1}, // Different color for different units
                     {"UK3CB_BAF_H_Beret_PWRR",1},
+                    {"ACE_MRE_ChickenHerbDumplings",1},
                     {"ACE_Sandbag_empty",1},
                     {"UK3CB_BAF_556_200Rnd",1},
                     {"UK3CB_BAF_556_200Rnd_T",1},
@@ -738,6 +759,7 @@ class TB3_Gear {
                     {"ACRE_PRC343",1},
                     {"ACE_EarPlugs",1},
                     {"ACE_MapTools",1},
+                    {"ACE_Canteen",1},
                     {"Chemlight_green",1},      // IFAK
                     {"ACE_fieldDressing",4},    // IFAK
                     {"ACE_elasticBandage",4},   // IFAK
@@ -761,6 +783,7 @@ class TB3_Gear {
                 backpackContents[] = {
                     {"UK3CB_BAF_G_Tactical_Orange",1}, // Different color for different units
                     {"UK3CB_BAF_H_Beret_PWRR",1},
+                    {"ACE_MRE_LambCurry",1},
                     {"ACE_Sandbag_empty",1},
                     {"UK3CB_BAF_556_200Rnd",1},
                     {"UK3CB_BAF_556_200Rnd_T",1},
@@ -790,6 +813,7 @@ class TB3_Gear {
                     {"ACRE_PRC343",1},
                     {"ACE_EarPlugs",1},
                     {"ACE_MapTools",1},
+                    {"ACE_Canteen",1},
                     {"Chemlight_green",1},      // IFAK
                     {"ACE_fieldDressing",4},    // IFAK
                     {"ACE_elasticBandage",4},   // IFAK
@@ -817,6 +841,7 @@ class TB3_Gear {
                 backpackContents[] = {
                     {"UK3CB_BAF_G_Tactical_Orange",1}, // Different color for different units
                     {"UK3CB_BAF_H_Beret_PWRR",1},
+                    {"ACE_MRE_MeatballsPasta",1},
                     {"ACE_Sandbag_empty",1},
                     {"UK3CB_BAF_556_30Rnd",3},
                     {"UK3CB_BAF_556_30Rnd_T",1},
@@ -852,6 +877,7 @@ class TB3_Gear {
                     {"ACRE_PRC343",1},
                     {"ACE_EarPlugs",1},
                     {"ACE_MapTools",1},
+                    {"ACE_Canteen",1},
                     {"Chemlight_green",1},      // IFAK
                     {"ACE_fieldDressing",4},    // IFAK
                     {"ACE_elasticBandage",4},   // IFAK
@@ -877,6 +903,7 @@ class TB3_Gear {
                 backpackContents[] = {
                     {"UK3CB_BAF_G_Tactical_Orange",1}, // Different color for different units
                     {"UK3CB_BAF_H_Beret_PWRR",1},
+                    {"ACE_MRE_BeefStew",1},
                     {"ACE_Sandbag_empty",1},
                     {"UK3CB_BAF_556_30Rnd",3},
                     {"UK3CB_BAF_556_30Rnd_T",1},
@@ -911,6 +938,7 @@ class TB3_Gear {
                     {"ACRE_PRC343",1},
                     {"ACE_EarPlugs",1},
                     {"ACE_MapTools",1},
+                    {"ACE_Canteen",1},
                     {"Chemlight_green",1},      // IFAK
                     {"ACE_fieldDressing",4},    // IFAK
                     {"ACE_elasticBandage",4},   // IFAK
@@ -939,6 +967,7 @@ class TB3_Gear {
                     {"UK3CB_BAF_G_Tactical_Clear",1}, // Different color for different units
                     {"rhsusf_shemagh_tan",1},
                     {"UK3CB_BAF_H_Beret_PWRR_PRR",1},
+                    {"ACE_MRE_SteakVegetables",1},
                     {"ACE_Sandbag_empty",1},
                     {"UK3CB_BAF_556_30Rnd",3},
                     {"UK3CB_BAF_556_30Rnd_T",1},
@@ -970,6 +999,7 @@ class TB3_Gear {
                     {"ACRE_PRC343",1},
                     {"ACE_EarPlugs",1},
                     {"ACE_MapTools",1},
+                    {"ACE_Canteen",1},
                     {"Chemlight_green",1},      // IFAK
                     {"ACE_fieldDressing",4},    // IFAK
                     {"ACE_elasticBandage",4},   // IFAK
@@ -998,6 +1028,7 @@ class TB3_Gear {
                     {"UK3CB_BAF_G_Tactical_Clear",1}, // Different color for different units
                     {"rhsusf_shemagh2_tan",1},
                     {"UK3CB_BAF_H_Beret_PWRR_PRR",1},
+                    {"ACE_MRE_LambCurry",1},
                     {"ACE_Sandbag_empty",1},
                     {"UK3CB_BAF_556_30Rnd",3},
                     {"UK3CB_BAF_556_30Rnd_T",1},
@@ -1029,6 +1060,7 @@ class TB3_Gear {
                     {"ACRE_PRC343",1},
                     {"ACE_EarPlugs",1},
                     {"ACE_MapTools",1},
+                    {"ACE_Canteen",1},
                     {"Chemlight_green",1},      // IFAK
                     {"ACE_fieldDressing",4},    // IFAK
                     {"ACE_elasticBandage",4},   // IFAK
@@ -1061,6 +1093,7 @@ class TB3_Gear {
                     {"UK3CB_BAF_G_Tactical_Clear",1}, // Different color for different units
                     {"rhsusf_shemagh2_tan",1},
                     {"UK3CB_BAF_H_Beret_PWRR_PRR",1},
+                    {"ACE_MRE_MeatballsPasta",1},
                     {"ACRE_PRC117F",1},
                     {"ITC_ROVER_SIR",1},
                     {"UK3CB_BAF_Soflam_Laserdesignator",1},
@@ -1093,6 +1126,7 @@ class TB3_Gear {
                     {"ACRE_PRC343",1},
                     {"ACE_EarPlugs",1},
                     {"ACE_MapTools",1},
+                    {"ACE_Canteen",1},
                     {"Chemlight_green",1},      // IFAK
                     {"ACE_fieldDressing",4},    // IFAK
                     {"ACE_elasticBandage",4},   // IFAK
@@ -1120,7 +1154,9 @@ class TB3_Gear {
                     {"UK3CB_BAF_G_Tactical_Clear",1}, // Different color for different units
                     {"rhsusf_shemagh_tan",1},
                     {"UK3CB_BAF_H_Beret_PWRR_PRR",1},
+                    {"ACE_MRE_LambCurry",1},
                     {"ACRE_PRC117F",1},
+                    {"ACRE_VHF30108SPIKE",1},
                     {"ACE_RangeTable_82mm",1},
                     {"rhs_mag_an_m8hc",2},
                     {"rhs_mag_m18_green",1},
@@ -1149,6 +1185,7 @@ class TB3_Gear {
                     {"ACRE_PRC343",1},
                     {"ACE_EarPlugs",1},
                     {"ACE_MapTools",1},
+                    {"ACE_Canteen",1},
                     {"Chemlight_green",1},      // IFAK
                     {"ACE_fieldDressing",4},    // IFAK
                     {"ACE_elasticBandage",4},   // IFAK
@@ -1175,11 +1212,10 @@ class TB3_Gear {
                 backpackContents[] = {
                     {"UK3CB_BAF_G_Tactical_Orange",1}, // Different color for different units
                     {"UK3CB_BAF_H_Beret_PWRR_PRR",1},
+                    {"ACE_MRE_ChickenHerbDumplings",1},
                     {"rhsusf_shemagh_tan",1},
-                    {"ACE_Sandbag_empty",1},
                     {"ACRE_PRC117F",1},
-                    {"rhs_mag_m18_green",1},
-                    {"rhs_mag_m18_red",1},
+                    {"ACRE_VHF30108",1},
                     {"Chemlight_green",1},
                     {"Chemlight_red",1},
                     {"Chemlight_yellow",1}
@@ -1202,6 +1238,7 @@ class TB3_Gear {
                     {"ACRE_PRC343",1},
                     {"ACE_EarPlugs",1},
                     {"ACE_MapTools",1},
+                    {"ACE_Canteen",1},
                     {"Chemlight_green",1},      // IFAK
                     {"ACE_fieldDressing",4},    // IFAK
                     {"ACE_elasticBandage",4},   // IFAK
@@ -1227,6 +1264,7 @@ class TB3_Gear {
                 backpackContents[] = {
                     {"UK3CB_BAF_G_Tactical_Orange",1}, // Different color for different units
                     {"UK3CB_BAF_H_Beret_PWRR_PRR",1},
+                    {"ACE_MRE_BeefStew",1},
                     {"rhsusf_shemagh2_tan",1},
                     {"ACE_Sandbag_empty",1},
                     {"UK3CB_BAF_556_30Rnd",3},
@@ -1260,6 +1298,7 @@ class TB3_Gear {
                     {"ACRE_PRC343",1},
                     {"ACE_EarPlugs",1},
                     {"ACE_MapTools",1},
+                    {"ACE_Canteen",1},
                     {"Chemlight_green",1},      // IFAK
                     {"ACE_fieldDressing",4},    // IFAK
                     {"ACE_elasticBandage",4},   // IFAK
@@ -1289,6 +1328,7 @@ class TB3_Gear {
                     {"UK3CB_BAF_G_Tactical_Clear",1}, // Different color for different units
                     {"rhsusf_shemagh2_tan",1},
                     {"UK3CB_BAF_H_Beret_PWRR_PRR",1},
+                    {"ACE_MRE_BeefStew",1},
                     {"UK3CB_BAF_MaxiKite",1},
                     {"ACE_wirecutter",1},
                     {"ACE_Sandbag_empty",1},
@@ -1325,6 +1365,7 @@ class TB3_Gear {
                     {"ACRE_PRC343",1},
                     {"ACE_EarPlugs",1},
                     {"ACE_MapTools",1},
+                    {"ACE_Canteen",1},
                     {"Chemlight_green",1},      // IFAK
                     {"ACE_fieldDressing",4},    // IFAK
                     {"ACE_elasticBandage",4},   // IFAK
@@ -1353,7 +1394,9 @@ class TB3_Gear {
                     {"UK3CB_BAF_G_Tactical_Clear",1}, // Different color for different units
                     {"rhsusf_shemagh2_tan",1},
                     {"UK3CB_BAF_H_Beret_PWRR",1},
+                    {"ACE_MRE_ChickenHerbDumplings",1},
                     {"ACE_Sandbag_empty",1},
+                    {"ACRE_VHF30108SPIKE",1},
                     {"ACE_RangeCard",1},
                     {"UK3CB_BAF_338_5Rnd",3},
                     {"UK3CB_BAF_338_5Rnd_Tracer",1},
@@ -1386,6 +1429,7 @@ class TB3_Gear {
                     {"ACRE_PRC343",1},
                     {"ACE_EarPlugs",1},
                     {"ACE_MapTools",1},
+                    {"ACE_Canteen",1},
                     {"Chemlight_green",1},      // IFAK
                     {"ACE_fieldDressing",4},    // IFAK
                     {"ACE_elasticBandage",4},   // IFAK
@@ -1415,10 +1459,11 @@ class TB3_Gear {
                 backpackContents[] = {
                     {"UK3CB_BAF_G_Tactical_Orange",1}, // Different color for different units
                     {"UK3CB_BAF_H_Beret_PWRR",1},
-                    {"ACE_Sandbag_empty",5},
+                    {"ACE_MRE_SteakVegetables",1},
+                    {"ACE_Sandbag_empty",1},
                     {"ACE_VMH3",1},
                     {"ACE_Clacker",1},
-                    {"DemoCharge_Remote_Mag",5},
+                    {"DemoCharge_Remote_Mag",4},
                     {"rhs_mag_m18_green",2},
                     {"rhs_mag_m18_red",2},
                     {"Chemlight_green",5},
@@ -1445,6 +1490,7 @@ class TB3_Gear {
                     {"ACRE_PRC343",1},
                     {"ACE_EarPlugs",1},
                     {"ACE_MapTools",1},
+                    {"ACE_Canteen",1},
                     {"Chemlight_green",1},      // IFAK
                     {"ACE_fieldDressing",4},    // IFAK
                     {"ACE_elasticBandage",4},   // IFAK
@@ -1473,10 +1519,11 @@ class TB3_Gear {
                 backpackContents[] = {
                     {"UK3CB_BAF_G_Tactical_Orange",1}, // Different color for different units
                     {"UK3CB_BAF_H_Beret_PWRR",1},
-                    {"ACE_Sandbag_empty",5},
+                    {"ACE_MRE_MeatballsPasta",1},
+                    {"ACE_Sandbag_empty",1},
                     {"ACE_VMH3",1},
                     {"ACE_Clacker",1},
-                    {"DemoCharge_Remote_Mag",5},
+                    {"DemoCharge_Remote_Mag",4},
                     {"rhs_mag_m18_green",2},
                     {"rhs_mag_m18_red",2},
                     {"Chemlight_green",5},
@@ -1503,6 +1550,7 @@ class TB3_Gear {
                     {"ACRE_PRC343",1},
                     {"ACE_EarPlugs",1},
                     {"ACE_MapTools",1},
+                    {"ACE_Canteen",1},
                     {"Chemlight_green",1},      // IFAK
                     {"ACE_fieldDressing",4},    // IFAK
                     {"ACE_elasticBandage",4},   // IFAK
@@ -1531,6 +1579,7 @@ class TB3_Gear {
                 backpackContents[] = {
                     {"UK3CB_BAF_G_Tactical_Orange",1}, // Different color for different units
                     {"UK3CB_BAF_H_Beret_PWRR",1},
+                    {"ACE_MRE_BeefStew",1},
                     {"ACE_Sandbag_empty",5},
                     {"ACE_wirecutter",1},
                     {"ACE_Clacker",1},
@@ -1563,6 +1612,7 @@ class TB3_Gear {
                     {"ACRE_PRC343",1},
                     {"ACE_EarPlugs",1},
                     {"ACE_MapTools",1},
+                    {"ACE_Canteen",1},
                     {"Chemlight_green",1},      // IFAK
                     {"ACE_fieldDressing",4},    // IFAK
                     {"ACE_elasticBandage",4},   // IFAK
@@ -1606,6 +1656,7 @@ class TB3_Gear {
                     {"ACRE_PRC343",1},
                     {"ACE_EarPlugs",1},
                     {"ACE_MapTools",1},
+                    {"ACE_Canteen",1},
                     {"Chemlight_green",1},      // IFAK
                     {"ACE_fieldDressing",4},    // IFAK
                     {"ACE_elasticBandage",4},   // IFAK
@@ -1646,6 +1697,7 @@ class TB3_Gear {
                 uniformContents[] = {
                     {"ACE_EarPlugs",1},
                     {"ACE_MapTools",1},
+                    {"ACE_Canteen",1},
                     {"Chemlight_green",1},      // IFAK
                     {"ACE_fieldDressing",4},    // IFAK
                     {"ACE_elasticBandage",4},   // IFAK
@@ -1689,6 +1741,7 @@ class TB3_Gear {
                 uniformContents[] = {
                     {"ACE_EarPlugs",1},
                     {"ACE_MapTools",1},
+                    {"ACE_Canteen",1},
                     {"Chemlight_green",1},      // IFAK
                     {"ACE_fieldDressing",4},    // IFAK
                     {"ACE_elasticBandage",4},   // IFAK
@@ -1734,6 +1787,7 @@ class TB3_Gear {
             vehCargoItems[] = {
                 {"ToolKit",2},
                 {"ACE_wirecutter",1},
+                {"ACE_WaterBottle",2},
                 {"Chemlight_green",1},      // First Aid Vehicle
                 {"ACE_fieldDressing",8},    // First Aid Vehicle
                 {"ACE_elasticBandage",8},   // First Aid Vehicle
@@ -1747,6 +1801,70 @@ class TB3_Gear {
             };
             vehCargoRucks[] = {
                 {"UK3CB_BAF_B_Bergen_MTP_Rifleman_L_D",0}
+            };
+        };
+        class BAF_TRUCK_BASE {
+            vehCargoWeapons[] = {
+                {"UK3CB_BAF_AT4_CS_AT_Launcher",2}
+            };
+            vehCargoMagazines[] = {
+                {"UK3CB_BAF_556_30Rnd",20},
+                {"UK3CB_BAF_556_30Rnd_T",5},
+                {"UK3CB_BAF_556_200Rnd",5},
+                {"UK3CB_BAF_762_100Rnd_T",5},
+                {"UK3CB_BAF_762_L42A1_20Rnd",10},
+                {"UK3CB_BAF_762_L42A1_20Rnd_T",5},
+                {"rhs_mag_an_m8hc",10},
+                {"rhs_mag_m67",5},
+                {"ACE_HandFlare_Red",2},
+                {"ACE_HandFlare_Yellow",2}
+            };
+            vehCargoItems[] = {
+                {"ACE_wirecutter",1},
+                {"ACE_Sandbag_empty",20},
+                {"ACE_WaterBottle",2},
+                {"Chemlight_green",1},      // First Aid Vehicle
+                {"ACE_fieldDressing",8},    // First Aid Vehicle
+                {"ACE_elasticBandage",8},   // First Aid Vehicle
+                {"ACE_packingBandage",5},   // First Aid Vehicle
+                {"ACE_quikclot",5},         // First Aid Vehicle
+                {"ACE_morphine",5},         // First Aid Vehicle
+                {"ACE_epinephrine",3},      // First Aid Vehicle
+                {"ACE_tourniquet",3},       // First Aid Vehicle
+                {"ACE_personalAidKit",3},   // First Aid Vehicle
+                {"ACE_bodyBag",2}           // First Aid Vehicle
+            };
+            vehCargoRucks[] = {
+                {"UK3CB_BAF_B_Bergen_MTP_Rifleman_L_D",4}
+            };
+        };
+        class BAF_TRUCK_CARGO {
+            vehCargoWeapons[] = {
+                {"UK3CB_BAF_AT4_CS_AT_Launcher",0}
+            };
+            vehCargoMagazines[] = {
+                {"rhs_mag_an_m8hc",10},
+                {"rhs_mag_m67",5},
+                {"ACE_HandFlare_Red",2},
+                {"ACE_HandFlare_Yellow",2}
+            };
+            vehCargoItems[] = {
+                {"ACE_wirecutter",1},
+                {"ACE_Sandbag_empty",10},
+                {"ACE_WaterBottle",2},
+                {"Chemlight_green",1},      // First Aid Vehicle
+                {"ACE_fieldDressing",8},    // First Aid Vehicle
+                {"ACE_elasticBandage",8},   // First Aid Vehicle
+                {"ACE_packingBandage",5},   // First Aid Vehicle
+                {"ACE_quikclot",5},         // First Aid Vehicle
+                {"ACE_morphine",5},         // First Aid Vehicle
+                {"ACE_epinephrine",3},      // First Aid Vehicle
+                {"ACE_tourniquet",3},       // First Aid Vehicle
+                {"ACE_personalAidKit",3},   // First Aid Vehicle
+                {"ACE_bodyBag",2}           // First Aid Vehicle
+            };
+            vehCargoRucks[] = {
+                {"UK3CB_BAF_B_Bergen_MTP_Rifleman_L_D",1}
             };
         };
         class BAF_LAND_BASE {
@@ -1768,6 +1886,7 @@ class TB3_Gear {
             vehCargoItems[] = {
                 {"ACE_wirecutter",1},
                 {"ACE_Sandbag_empty",20},
+                {"ACE_WaterBottle",2},
                 {"Chemlight_green",1},      // First Aid Vehicle
                 {"ACE_fieldDressing",8},    // First Aid Vehicle
                 {"ACE_elasticBandage",8},   // First Aid Vehicle
@@ -1796,6 +1915,7 @@ class TB3_Gear {
                 {"B_UavTerminal",1},
                 {"ACE_wirecutter",2},
                 {"ACE_Sandbag_empty",40},
+                {"ACE_WaterBottle",2},
                 {"Chemlight_green",1},      // First Aid Vehicle
                 {"ACE_fieldDressing",8},    // First Aid Vehicle
                 {"ACE_elasticBandage",8},   // First Aid Vehicle
@@ -1831,7 +1951,9 @@ class TB3_Gear {
             };
             vehCargoItems[] = {
                 {"ACE_wirecutter",1},
+                {"ACRE_VHF30108MAST",1},
                 {"ACE_Sandbag_empty",20},
+                {"ACE_WaterBottle",2},
                 {"Chemlight_green",1},      // First Aid Vehicle
                 {"ACE_fieldDressing",8},    // First Aid Vehicle
                 {"ACE_elasticBandage",8},   // First Aid Vehicle
@@ -1868,7 +1990,9 @@ class TB3_Gear {
             };
             vehCargoItems[] = {
                 {"ACE_wirecutter",1},
+                {"ACRE_VHF30108MAST",1},
                 {"ACE_Sandbag_empty",20},
+                {"ACE_WaterBottle",2},
                 {"Chemlight_green",1},      // First Aid Vehicle
                 {"ACE_fieldDressing",8},    // First Aid Vehicle
                 {"ACE_elasticBandage",8},   // First Aid Vehicle
@@ -1905,7 +2029,9 @@ class TB3_Gear {
             };
             vehCargoItems[] = {
                 {"ACE_wirecutter",1},
+                {"ACRE_VHF30108MAST",1},
                 {"ACE_Sandbag_empty",20},
+                {"ACE_WaterBottle",2},
                 {"Chemlight_green",1},      // First Aid Vehicle
                 {"ACE_fieldDressing",8},    // First Aid Vehicle
                 {"ACE_elasticBandage",8},   // First Aid Vehicle
@@ -1947,6 +2073,8 @@ class TB3_Gear {
             };
             vehCargoItems[] = {
                 {"ACE_wirecutter",1},
+                {"ACRE_VHF30108SPIKE",1},
+                {"ACRE_VHF30108MAST",1},
                 {"ACE_SpottingScope",2},
                 {"ACE_Tripod",1},
                 {"ACE_Sandbag_empty",20},
@@ -1958,6 +2086,7 @@ class TB3_Gear {
                 {"ACE_DAGR",1},
                 {"ACE_HuntIR_monitor",1},
                 {"ACE_Flashlight_MX991",1},
+                {"ACE_WaterBottle",2},
                 {"Chemlight_green",1},      // First Aid Vehicle
                 {"ACE_fieldDressing",8},    // First Aid Vehicle
                 {"ACE_elasticBandage",8},   // First Aid Vehicle
@@ -1986,6 +2115,9 @@ class TB3_Gear {
             vehCargoItems[] = {
                 {"ACE_wirecutter",1},
                 {"ACE_Sandbag_empty",10},
+                {"ACE_WaterBottle",10},
+                {"ACE_MRE_BeefStew",5},
+                {"ACE_MRE_CreamChickenSoup",5},
                 {"Chemlight_green",1},      
                 {"ACE_fieldDressing",20},   
                 {"ACE_elasticBandage",20},   
@@ -2027,7 +2159,10 @@ class TB3_Gear {
             };
             vehCargoItems[] = {
                 {"ACE_wirecutter",1},
+                {"ACRE_VHF30108SPIKE",1},
+                {"ACRE_VHF30108MAST",1},
                 {"ACE_Sandbag_empty",10},
+                {"ACE_WaterBottle",2},
                 {"Chemlight_green",1},      // First Aid Vehicle
                 {"ACE_fieldDressing",8},    // First Aid Vehicle
                 {"ACE_elasticBandage",8},   // First Aid Vehicle
@@ -2068,6 +2203,8 @@ class TB3_Gear {
             };
             vehCargoItems[] = {
                 {"ACE_wirecutter",1},
+                {"ACRE_VHF30108SPIKE",1},
+                {"ACRE_VHF30108MAST",1},
                 {"ACE_SpottingScope",2},
                 {"ITC_ROVER_SIR",2},
                 {"ACE_Tripod",1},
@@ -2086,6 +2223,7 @@ class TB3_Gear {
                 {"Chemlight_green",15},
                 {"Chemlight_yellow",15},
                 {"Chemlight_red",15},
+                {"ACE_WaterBottle",2},
                 {"ACE_fieldDressing",15},   // First Aid Vehicle
                 {"ACE_elasticBandage",15},  // First Aid Vehicle
                 {"ACE_packingBandage",10},  // First Aid Vehicle
@@ -2126,6 +2264,7 @@ class TB3_Gear {
             vehCargoItems[] = {
                 {"ACE_wirecutter",1},
                 {"ACE_Sandbag_empty",20},
+                {"ACE_WaterBottle",2},
                 {"Chemlight_green",1},      // First Aid Vehicle
                 {"ACE_fieldDressing",8},    // First Aid Vehicle
                 {"ACE_elasticBandage",8},   // First Aid Vehicle
@@ -2162,6 +2301,7 @@ class TB3_Gear {
             vehCargoItems[] = {
                 {"ACE_wirecutter",1},
                 {"ACE_Sandbag_empty",20},
+                {"ACE_WaterBottle",2},
                 {"Chemlight_green",1},      // First Aid Vehicle
                 {"ACE_fieldDressing",8},    // First Aid Vehicle
                 {"ACE_elasticBandage",8},   // First Aid Vehicle
@@ -2197,6 +2337,7 @@ class TB3_Gear {
             vehCargoItems[] = {
                 {"ACE_wirecutter",1},
                 {"ACE_Sandbag_empty",20},
+                {"ACE_WaterBottle",2},
                 {"Chemlight_green",1},      // First Aid Vehicle
                 {"ACE_fieldDressing",8},    // First Aid Vehicle
                 {"ACE_elasticBandage",8},   // First Aid Vehicle
@@ -2233,6 +2374,7 @@ class TB3_Gear {
             vehCargoItems[] = {
                 {"ACE_wirecutter",2},
                 {"ACE_Sandbag_empty",20},
+                {"ACE_WaterBottle",2},
                 {"Chemlight_green",1},      // First Aid Vehicle
                 {"ACE_fieldDressing",8},    // First Aid Vehicle
                 {"ACE_elasticBandage",8},   // First Aid Vehicle
@@ -2277,6 +2419,7 @@ class TB3_Gear {
             vehCargoMagazines[] = {
             };
             vehCargoItems[] = {
+                {"ACE_WaterBottle",2},
                 {"Chemlight_green",1},      // First Aid Vehicle
                 {"ACE_fieldDressing",4},    // First Aid Vehicle
                 {"ACE_elasticBandage",4},   // First Aid Vehicle
@@ -2298,6 +2441,7 @@ class TB3_Gear {
             vehCargoMagazines[] = {
             };
             vehCargoItems[] = {
+                {"ACE_WaterBottle",5},
                 {"Chemlight_green",5},      // First Aid Vehicle
                 {"ACE_fieldDressing",20},    // First Aid Vehicle
                 {"ACE_elasticBandage",20},   // First Aid Vehicle
@@ -2324,6 +2468,9 @@ class TB3_Gear {
             vehCargoItems[] = {
                 {"ACE_wirecutter",1},
                 {"ACE_Sandbag_empty",10},
+                {"ACE_WaterBottle",20},
+                {"ACE_MRE_BeefStew",10},
+                {"ACE_MRE_CreamChickenSoup",10},
                 {"Chemlight_green",1},      
                 {"ACE_fieldDressing",20},   
                 {"ACE_elasticBandage",20},   
@@ -2367,6 +2514,8 @@ class TB3_Gear {
             };
             vehCargoItems[] = {
                 {"ToolKit",5},
+                {"ACRE_VHF30108SPIKE",1},
+                {"ACRE_VHF30108MAST",3},
                 {"ITC_EPLRS",2},
                 {"ITC_ROVER_SIR",2},
                 {"ACE_RangeTable_82mm",2},
