@@ -27,6 +27,7 @@ setViewDistance 4000;
 [] execVM "scripts\server_side\endconditions\endconditions_init.sqf";
 [] execVM "scripts\killerchair.sqf";
 [] execVM "scripts\server_side\holdaction_init.sqf";
+[] execVM "scripts\client_side\uav_feed.sqf";
 
 
 /* ************************************************************************************************************************************************************************************* */

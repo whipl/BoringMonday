@@ -16,6 +16,7 @@ v3.2
 =====
 #added ACEX Field Rations
 #added 3CB Trucks and logistics
+#changed setting to a fictive Afghanistan and changed LNA to ANP/ANA
 
 v3.1
 =====

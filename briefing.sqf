@@ -45,11 +45,11 @@ switch (side player) do
             <br /></font>
         <br />"]];
         player createDiaryRecord ["Diary", ["     Appendix III", "
-            <br /><font color='#FFA500' size='15' face='RobotoCondensed'>-------------------------------------</font>
-            <br /><font color='#FFA500' size='15' face='RobotoCondensed'>Local National Army (LNA):</font>
-            <br /><font color='#FFA500' size='15' face='RobotoCondensed'>-------------------------------------</font>
+            <br /><font color='#FFA500' size='15' face='RobotoCondensed'>-------------------------------------------------</font>
+            <br /><font color='#FFA500' size='15' face='RobotoCondensed'>Afghan National Army/Police (ANA/ANP):</font>
+            <br /><font color='#FFA500' size='15' face='RobotoCondensed'>-------------------------------------------------</font>
             <font face='RobotoCondensedLight'>
-            <br /><font color='#FFA500' face='RobotoCondensedBold'></font>Reference picture of LNA troops and equipment:
+            <br /><font color='#FFA500' face='RobotoCondensedBold'></font>Reference picture of ANA and ANP troops and equipment:
             <br />
             <br /><p align='center'><img image='images\img_lna.jpg' width='256' height='256'/></p>
             <br /></font>
@@ -103,30 +103,30 @@ switch (side player) do
             <br /><font color='#FFA500' face='RobotoCondensedBold'></font>A-COY/2PWRR Headquarters  --  T-0
             <br />
             <br /><font color='#FFA500' face='RobotoCondensed'>-Infantry Platoon HQ-</font>
-            <br /><font color='#FFA500' face='RobotoCondensedBold'></font>A-COY/2PWRR 2-PLT                   --  T-2
-            <br /><font color='#FFA500' face='RobotoCondensedBold'></font>A-COY/2PWRR 2-PLT Signaller         --  T-2-0
+            <br /><font color='#FFA500' face='RobotoCondensedBold'></font>A-COY/2PWRR 2-PLT                        --  T-2
+            <br /><font color='#FFA500' face='RobotoCondensedBold'></font>A-COY/2PWRR 2-PLT Signaller           --  T-2-0
             <br /><font color='#FFA500' face='RobotoCondensedBold'></font>A-COY/2PWRR 2-PLT OC (Mission CO)   --  T-2-A
-            <br /><font color='#FFA500' face='RobotoCondensedBold'></font>A-COY/2PWRR 2-PLT SGT               --  T-2-B
+            <br /><font color='#FFA500' face='RobotoCondensedBold'></font>A-COY/2PWRR 2-PLT SGT                 --  T-2-B
             <br /><font color='#FFA500' face='RobotoCondensed'>-Infantry Platoon Sections-</font>
-            <br /><font color='#FFA500' face='RobotoCondensedBold'></font>A-COY/2PWRR 2-PLT 1-SEC             --  T-2-1
+            <br /><font color='#FFA500' face='RobotoCondensedBold'></font>A-COY/2PWRR 2-PLT 1-SEC               --  T-2-1
             <br /><font color='#FFA500' face='RobotoCondensedBold'></font>A-COY/2PWRR 2-PLT 1-SEC SL  (FT C)  --  T-2-1-C
             <br /><font color='#FFA500' face='RobotoCondensedBold'></font>A-COY/2PWRR 2-PLT 1-SEC 2IC (FT D)  --  T-2-1-D
-            <br /><font color='#FFA500' face='RobotoCondensedBold'></font>A-COY/2PWRR 2-PLT 2-SEC             --  T-2-2
+            <br /><font color='#FFA500' face='RobotoCondensedBold'></font>A-COY/2PWRR 2-PLT 2-SEC               --  T-2-2
             <br /><font color='#FFA500' face='RobotoCondensedBold'></font>A-COY/2PWRR 2-PLT 2-SEC SL  (FT C)  --  T-2-2-C
             <br /><font color='#FFA500' face='RobotoCondensedBold'></font>A-COY/2PWRR 2-PLT 2-SEC 2IC (FT D)  --  T-2-2-D
             <br />
             <br /><font color='#FFA500' face='RobotoCondensed'>-Recce Attachment-</font>
-            <br /><font color='#FFA500' face='RobotoCondensedBold'></font>D-COY/2PWRR 1-PLT 1-SEC             --  K-2-4
+            <br /><font color='#FFA500' face='RobotoCondensedBold'></font>D-COY/2PWRR 1-PLT 1-SEC               --  K-2-4
             <br /><font color='#FFA500' face='RobotoCondensedBold'></font>D-COY/2PWRR 1-PLT 1-SEC SL  (FT C)  --  K-2-4-C
             <br /><font color='#FFA500' face='RobotoCondensedBold'></font>D-COY/2PWRR 1-PLT 1-SEC 2IC (FT D)  --  K-2-4-D
             <br />
             <br /><font color='#FFA500' face='RobotoCondensed'>-Mortar Attachment-</font>
-            <br /><font color='#FFA500' face='RobotoCondensedBold'></font>D-COY/2PWRR 3-PLT 3-SEC        --  K-2-5
+            <br /><font color='#FFA500' face='RobotoCondensedBold'></font>D-COY/2PWRR 3-PLT 3-SEC          --  K-2-5
             <br /><font color='#FFA500' face='RobotoCondensedBold'></font>D-COY/2PWRR 3-PLT 3-SEC Gun-1  --  K-2-5-C
             <br /><font color='#FFA500' face='RobotoCondensedBold'></font>D-COY/2PWRR 3-PLT 3-SEC Gun-2  --  K-2-5-D
             <br />
             <br /><font color='#FFA500' face='RobotoCondensed'>-FST Attachment-</font>
-            <br /><font color='#FFA500' face='RobotoCondensedBold'></font>FST Attachment      --  L-2-6
+            <br /><font color='#FFA500' face='RobotoCondensedBold'></font>FST Attachment       --  L-2-6
             <br /><font color='#FFA500' face='RobotoCondensedBold'></font>FST Attachment SL   --  L-2-6-C
             <br /><font color='#FFA500' face='RobotoCondensedBold'></font>FST Attachment 2IC  --  L-2-6-D
             <br /><font color='#FFA500' face='RobotoCondensedBold'></font>FST Attachment FAC  --  L-2-6-J
@@ -144,16 +144,16 @@ switch (side player) do
             <br /><font color='#FFA500' size='15' face='RobotoCondensed'>--------------------</font>
             <font face='RobotoCondensedLight'>
             <br /><font color='#FFA500' face='RobotoCondensed'>-2 PWRR Battalion-</font>
-            <br /><font color='#FFA500' face='RobotoCondensedBold'>  </font> Battalion Net           -- 31.250MHz (CH01)
-            <br /><font color='#FFA500' face='RobotoCondensedBold'>  </font> A-COY Net                 -- 31.375MHz (CH02)
-            <br /><font color='#FFA500' face='RobotoCondensedBold'>    </font> 1st Platoon Net        -- 31.500MHz (CH03)
-            <br /><font color='#FFA500' face='RobotoCondensedBold'>    </font> 2nd Platoon Net        -- 31.625MHz (CH04)
+            <br /><font color='#FFA500' face='RobotoCondensedBold'>  </font> Battalion Net           -- 59.375MHz (CH01)
+            <br /><font color='#FFA500' face='RobotoCondensedBold'>  </font> A-COY Net                 -- 59.500MHz (CH02)
+            <br /><font color='#FFA500' face='RobotoCondensedBold'>    </font> 1st Platoon Net        -- 59.625MHz (CH03)
+            <br /><font color='#FFA500' face='RobotoCondensedBold'>    </font> 2nd Platoon Net        -- 59.750MHz (CH04)
             <br /><font color='#FFA500' face='RobotoCondensed'>-Fire Coordination Nets-</font>
-            <br /><font color='#FFA500' face='RobotoCondensedBold'>  </font> Fire Conduct Net (FCN)  -- 31.750MHz (CH05)
-            <br /><font color='#FFA500' face='RobotoCondensedBold'>  </font> Air Request Net             -- 31.875MHz (CH06)
-            <br /><font color='#FFA500' face='RobotoCondensedBold'>    </font> TAD-1 Net                   -- 32.000MHz (CH07)
-            <br /><font color='#FFA500' face='RobotoCondensedBold'>    </font> TAD-2 Net                   -- 32.125MHz (CH08)
-            <br /><font color='#FFA500' face='RobotoCondensedBold'>  </font> CTAF                            -- 32.250MHz (CH09)
+            <br /><font color='#FFA500' face='RobotoCondensedBold'>  </font> Fire Conduct Net (FCN)  -- 59.875MHz (CH05)
+            <br /><font color='#FFA500' face='RobotoCondensedBold'>  </font> Air Request Net             -- 60.000MHz (CH06)
+            <br /><font color='#FFA500' face='RobotoCondensedBold'>    </font> TAD-1 Net                   -- 60.125MHz (CH07)
+            <br /><font color='#FFA500' face='RobotoCondensedBold'>    </font> TAD-2 Net                   -- 60.250MHz (CH08)
+            <br /><font color='#FFA500' face='RobotoCondensedBold'>  </font> CTAF                            -- 60.375MHz (CH09)
             <br />
             <br /><font color='#FFA500'>Short range nets:</font>
             <br /><font color='#FFA500' face='RobotoCondensedBold'>  </font> T-2-1    --  46.000MHz (CH01)
@@ -230,7 +230,8 @@ switch (side player) do
             <br /><font color='#FFA500' size='15' face='RobotoCondensed'>B. Logistics</font>
             <br /><font color='#FFA500' size='15' face='RobotoCondensed'>----------------</font>
             <font face='RobotoCondensedLight'>
-            <br /><font color='#FFA500' face='RobotoCondensedBold'>1.</font> <font face='RobotoCondensedBold'>Resupply:</font> FOB Liberty, FOB North.
+            <br /><font color='#FFA500' face='RobotoCondensedBold'>1.</font> <font face='RobotoCondensedBold'>Resupply:</font> FOB Liberty, FOB North. FOB Liberty features a logistics compound with multiple resources available.
+            <br /><font color='#FFA500' face='RobotoCondensedBold'>2.</font> <font face='RobotoCondensedBold'>Food:</font> Canteens and 1 MRE provided. Additional food and water will be issued based on the mission and on commanders discretion.
             <br /></font>
             <br /><font color='#FFA500' size='15' face='RobotoCondensed'>-----------------------</font>
             <br /><font color='#FFA500' size='15' face='RobotoCondensed'>C. Transportation</font>
@@ -284,7 +285,7 @@ switch (side player) do
             <br /><font color='#FFA500' face='RobotoCondensedBold'>2.</font> Search and clear possible IED's
             <br /><font color='#FFA500' face='RobotoCondensedBold'>3.</font> Retrieve flight recorder
             <br /><font color='#FFA500' face='RobotoCondensedBold'>4.</font> Destroy insurgent weapons caches
-            <br /><font color='#FFA500' face='RobotoCondensedBold'>5.</font> Assist LNA patrol
+            <br /><font color='#FFA500' face='RobotoCondensedBold'>5.</font> Assist ANP patrol
             <br /><font color='#FFA500' face='RobotoCondensedBold'>6.</font> Recover damaged HMMWV
             <br /><font color='#FFA500' face='RobotoCondensedBold'>7.</font> Terrorist Hunt
             <br /><font color='#FFA500' face='RobotoCondensedBold'>8.</font> Recover lost utility UAV
@@ -315,15 +316,15 @@ switch (side player) do
             <br /><font color='#FFA500' face='RobotoCondensedBold'></font>Some of our recent captures validated intel on a weapons cache located at around GRID 065050.
             <br /><font color='#FFA500' face='RobotoCondensedBold'></font>Unfortunatelly, we have no better intel available. The caches could be anywhere within a 1km radius of that GRID reference. We do know, however, that it is located within a fortified ompound. You can also be sure that the cache will be guarded. Your task is to locate and destroy the weapon caches.
             <br /></font>
-            <br /><font color='#FFA500' size='15' face='RobotoCondensed'>5. Assist LNA patrol (see briefing slides in game)</font>
+            <br /><font color='#FFA500' size='15' face='RobotoCondensed'>5. Assist ANP patrol (see briefing slides in game)</font>
             <font face='RobotoCondensedLight'>
-            <br /><font color='#FFA500' face='RobotoCondensedBold'></font>The LNA contacted us not too long ago that one of their patrols got caught up in a firefight in Bahad (GRID 043069), North of the AO.
-            <br /><font color='#FFA500' face='RobotoCondensedBold'></font>LNA is low on staff and they asked us to move there and investigate. They are not our forces so it is your call if you wanna see what's going on up there. Might also be a good chance to tell their commander to step up their operations in the area and increase those patrols. Seems like they like to just sit around at their camp all day long.
+            <br /><font color='#FFA500' face='RobotoCondensedBold'></font>The ANP contacted us not too long ago that one of their patrols got caught up in a firefight in Bahad (GRID 043069), North of the AO.
+            <br /><font color='#FFA500' face='RobotoCondensedBold'></font>ANP is low on staff and they asked us to move there and investigate. They are not our forces so it is your call if you wanna see what's going on up there. Might also be a good chance to tell their commander to step up their operations in the area and increase those patrols. Seems like they like to just sit around at their camp all day long.
             <br /></font>
             <br /><font color='#FFA500' size='15' face='RobotoCondensed'>6. Recover damaged HMMWV (see briefing slides in game)</font>
             <font face='RobotoCondensedLight'>
-            <br /><font color='#FFA500' face='RobotoCondensedBold'></font>One of the LNA HMMWV's was badly damaged in a recent attack just East of CP Charlie (GRID 056054).
-            <br /><font color='#FFA500' face='RobotoCondensedBold'></font>Since the LNA has no means to recover the vehicle themselfes, it is on us to help them out and recover their lost asset. We have yet to make an assessment of its state, the LNA keeps telling us different stories about the damage. Suggest you bring everything you can to repair it and assume the worst (in terms of damage to the vehicle). Once retrieved bring the assets back to the LNA checkpoint.
+            <br /><font color='#FFA500' face='RobotoCondensedBold'></font>One of the ANA HMMWV's was badly damaged in a recent attack just East of CP Charlie (GRID 056054).
+            <br /><font color='#FFA500' face='RobotoCondensedBold'></font>Since the ANA has no means to recover the vehicle themselfes, it is on us to help them out and recover their lost asset. We have yet to make an assessment of its state, the ANA keeps telling us different stories about the damage. Suggest you bring everything you can to repair it and assume the worst (in terms of damage to the vehicle). Once retrieved bring the assets back to the ANA checkpoint.
             <br /></font>
             <br /><font color='#FFA500' size='15' face='RobotoCondensed'>7. Terrorist Hunt (see briefing slides in game)</font>
             <font face='RobotoCondensedLight'>
@@ -367,7 +368,7 @@ switch (side player) do
             <br /><font color='#FFA500' size='15' face='RobotoCondensed'>-------------------------</font>
             <font face='RobotoCondensedLight'>
             <br /><font color='#FFA500' face='RobotoCondensedBold'>1.</font> <font face='RobotoCondensedBold'>Higher's Mission and Intent:</font> Stabilize the area, show presence and rule out enemy fighters.
-            <br /><font color='#FFA500' face='RobotoCondensedBold'>2.</font> <font face='RobotoCondensedBold'>Adjacent Units:</font> Possible ground and air patrols in the AO. We also have LNA operating in the area.
+            <br /><font color='#FFA500' face='RobotoCondensedBold'>2.</font> <font face='RobotoCondensedBold'>Adjacent Units:</font> Possible ground and air patrols in the AO. We also have ANA/ANP operating in the area.
             <br /><font color='#FFA500' face='RobotoCondensedBold'>3.</font> <font face='RobotoCondensedBold'>Supporting:</font> Air units for support and CAS aswell as a Recce and FST team with a mortar team on station at FOB North. A EOD team is also on station to help clear roads.
             <br /></font>
             <br /><font color='#FFA500' size='15' face='RobotoCondensed'>---------------------------------------</font>
@@ -570,11 +571,11 @@ switch (side player) do
             <br /></font>
         <br />"]];
         player createDiaryRecord ["Diary", ["     Appendix III", "
-            <br /><font color='#FFA500' size='15' face='RobotoCondensed'>-------------------------------------</font>
-            <br /><font color='#FFA500' size='15' face='RobotoCondensed'>Local National Army (LNA):</font>
-            <br /><font color='#FFA500' size='15' face='RobotoCondensed'>-------------------------------------</font>
+            <br /><font color='#FFA500' size='15' face='RobotoCondensed'>-------------------------------------------------</font>
+            <br /><font color='#FFA500' size='15' face='RobotoCondensed'>Afghan National Army/Police (ANA/ANP):</font>
+            <br /><font color='#FFA500' size='15' face='RobotoCondensed'>-------------------------------------------------</font>
             <font face='RobotoCondensedLight'>
-            <br /><font color='#FFA500' face='RobotoCondensedBold'></font>Reference picture of LNA troops and equipment:
+            <br /><font color='#FFA500' face='RobotoCondensedBold'></font>Reference picture of ANA/ANP troops and equipment:
             <br />
             <br /><p align='center'><img image='images\img_lna.jpg' width='256' height='256'/></p>
             <br /></font>
@@ -628,12 +629,12 @@ switch (side player) do
             <br /><font color='#FFA500' face='RobotoCondensedBold'></font>A-COY/2PWRR Headquarters  --  T-0
             <br />
             <br /><font color='#FFA500' face='RobotoCondensed'>-Infantry Platoon HQ-</font>
-            <br /><font color='#FFA500' face='RobotoCondensedBold'></font>A-COY/2PWRR 2-PLT                   --  T-2
-            <br /><font color='#FFA500' face='RobotoCondensedBold'></font>A-COY/2PWRR 2-PLT Signaller         --  T-2-0
+            <br /><font color='#FFA500' face='RobotoCondensedBold'></font>A-COY/2PWRR 2-PLT                       --  T-2
+            <br /><font color='#FFA500' face='RobotoCondensedBold'></font>A-COY/2PWRR 2-PLT Signaller           --  T-2-0
             <br /><font color='#FFA500' face='RobotoCondensedBold'></font>A-COY/2PWRR 2-PLT OC (Mission CO)   --  T-2-A
-            <br /><font color='#FFA500' face='RobotoCondensedBold'></font>A-COY/2PWRR 2-PLT SGT               --  T-2-B
+            <br /><font color='#FFA500' face='RobotoCondensedBold'></font>A-COY/2PWRR 2-PLT SGT                 --  T-2-B
             <br /><font color='#FFA500' face='RobotoCondensed'>-Infantry Platoon Sections-</font>
-            <br /><font color='#FFA500' face='RobotoCondensedBold'></font>A-COY/2PWRR 2-PLT 1-SEC             --  T-2-1
+            <br /><font color='#FFA500' face='RobotoCondensedBold'></font>A-COY/2PWRR 2-PLT 1-SEC               --  T-2-1
             <br /><font color='#FFA500' face='RobotoCondensedBold'></font>A-COY/2PWRR 2-PLT 1-SEC SL  (FT C)  --  T-2-1-C
             <br /><font color='#FFA500' face='RobotoCondensedBold'></font>A-COY/2PWRR 2-PLT 1-SEC 2IC (FT D)  --  T-2-1-D
             <br /><font color='#FFA500' face='RobotoCondensedBold'></font>A-COY/2PWRR 2-PLT 2-SEC             --  T-2-2
@@ -641,17 +642,17 @@ switch (side player) do
             <br /><font color='#FFA500' face='RobotoCondensedBold'></font>A-COY/2PWRR 2-PLT 2-SEC 2IC (FT D)  --  T-2-2-D
             <br />
             <br /><font color='#FFA500' face='RobotoCondensed'>-Recce Attachment-</font>
-            <br /><font color='#FFA500' face='RobotoCondensedBold'></font>D-COY/2PWRR 1-PLT 1-SEC             --  K-2-4
+            <br /><font color='#FFA500' face='RobotoCondensedBold'></font>D-COY/2PWRR 1-PLT 1-SEC               --  K-2-4
             <br /><font color='#FFA500' face='RobotoCondensedBold'></font>D-COY/2PWRR 1-PLT 1-SEC SL  (FT C)  --  K-2-4-C
             <br /><font color='#FFA500' face='RobotoCondensedBold'></font>D-COY/2PWRR 1-PLT 1-SEC 2IC (FT D)  --  K-2-4-D
             <br />
             <br /><font color='#FFA500' face='RobotoCondensed'>-Mortar Attachment-</font>
-            <br /><font color='#FFA500' face='RobotoCondensedBold'></font>D-COY/2PWRR 3-PLT 3-SEC        --  K-2-5
+            <br /><font color='#FFA500' face='RobotoCondensedBold'></font>D-COY/2PWRR 3-PLT 3-SEC          --  K-2-5
             <br /><font color='#FFA500' face='RobotoCondensedBold'></font>D-COY/2PWRR 3-PLT 3-SEC Gun-1  --  K-2-5-C
             <br /><font color='#FFA500' face='RobotoCondensedBold'></font>D-COY/2PWRR 3-PLT 3-SEC Gun-2  --  K-2-5-D
             <br />
             <br /><font color='#FFA500' face='RobotoCondensed'>-FST Attachment-</font>
-            <br /><font color='#FFA500' face='RobotoCondensedBold'></font>FST Attachment      --  L-2-6
+            <br /><font color='#FFA500' face='RobotoCondensedBold'></font>FST Attachment       --  L-2-6
             <br /><font color='#FFA500' face='RobotoCondensedBold'></font>FST Attachment SL   --  L-2-6-C
             <br /><font color='#FFA500' face='RobotoCondensedBold'></font>FST Attachment 2IC  --  L-2-6-D
             <br /><font color='#FFA500' face='RobotoCondensedBold'></font>FST Attachment FAC  --  L-2-6-J
@@ -669,16 +670,16 @@ switch (side player) do
             <br /><font color='#FFA500' size='15' face='RobotoCondensed'>--------------------</font>
             <font face='RobotoCondensedLight'>
             <br /><font color='#FFA500' face='RobotoCondensed'>-2 PWRR Battalion-</font>
-            <br /><font color='#FFA500' face='RobotoCondensedBold'>  </font> Battalion Net           -- 31.250MHz (CH01)
-            <br /><font color='#FFA500' face='RobotoCondensedBold'>  </font> A-COY Net                 -- 31.375MHz (CH02)
-            <br /><font color='#FFA500' face='RobotoCondensedBold'>    </font> 1st Platoon Net        -- 31.500MHz (CH03)
-            <br /><font color='#FFA500' face='RobotoCondensedBold'>    </font> 2nd Platoon Net        -- 31.625MHz (CH04)
+            <br /><font color='#FFA500' face='RobotoCondensedBold'>  </font> Battalion Net           -- 59.375MHz (CH01)
+            <br /><font color='#FFA500' face='RobotoCondensedBold'>  </font> A-COY Net                 -- 59.500MHz (CH02)
+            <br /><font color='#FFA500' face='RobotoCondensedBold'>    </font> 1st Platoon Net        -- 59.625MHz (CH03)
+            <br /><font color='#FFA500' face='RobotoCondensedBold'>    </font> 2nd Platoon Net        -- 59.750MHz (CH04)
             <br /><font color='#FFA500' face='RobotoCondensed'>-Fire Coordination Nets-</font>
-            <br /><font color='#FFA500' face='RobotoCondensedBold'>  </font> Fire Conduct Net (FCN)  -- 31.750MHz (CH05)
-            <br /><font color='#FFA500' face='RobotoCondensedBold'>  </font> Air Request Net             -- 31.875MHz (CH06)
-            <br /><font color='#FFA500' face='RobotoCondensedBold'>    </font> TAD-1 Net                   -- 32.000MHz (CH07)
-            <br /><font color='#FFA500' face='RobotoCondensedBold'>    </font> TAD-2 Net                   -- 32.125MHz (CH08)
-            <br /><font color='#FFA500' face='RobotoCondensedBold'>  </font> CTAF                            -- 32.250MHz (CH09)
+            <br /><font color='#FFA500' face='RobotoCondensedBold'>  </font> Fire Conduct Net (FCN)  -- 59.875MHz (CH05)
+            <br /><font color='#FFA500' face='RobotoCondensedBold'>  </font> Air Request Net             -- 60.000MHz (CH06)
+            <br /><font color='#FFA500' face='RobotoCondensedBold'>    </font> TAD-1 Net                   -- 60.125MHz (CH07)
+            <br /><font color='#FFA500' face='RobotoCondensedBold'>    </font> TAD-2 Net                   -- 60.250MHz (CH08)
+            <br /><font color='#FFA500' face='RobotoCondensedBold'>  </font> CTAF                            -- 60.375MHz (CH09)
             <br />
             <br /><font color='#FFA500'>Short range nets:</font>
             <br /><font color='#FFA500' face='RobotoCondensedBold'>  </font> T-2-1    --  46.000MHz (CH01)
@@ -755,7 +756,8 @@ switch (side player) do
             <br /><font color='#FFA500' size='15' face='RobotoCondensed'>B. Logistics</font>
             <br /><font color='#FFA500' size='15' face='RobotoCondensed'>----------------</font>
             <font face='RobotoCondensedLight'>
-            <br /><font color='#FFA500' face='RobotoCondensedBold'>1.</font> <font face='RobotoCondensedBold'>Resupply:</font> FOB Liberty, FOB North.
+            <br /><font color='#FFA500' face='RobotoCondensedBold'>1.</font> <font face='RobotoCondensedBold'>Resupply:</font> FOB Liberty, FOB North. FOB Liberty features a logistics compound with multiple resources available.
+            <br /><font color='#FFA500' face='RobotoCondensedBold'>2.</font> <font face='RobotoCondensedBold'>Food:</font> Canteens and 1 MRE provided. Additional food and water will be issued based on the mission and on commanders discretion.
             <br /></font>
             <br /><font color='#FFA500' size='15' face='RobotoCondensed'>-----------------------</font>
             <br /><font color='#FFA500' size='15' face='RobotoCondensed'>C. Transportation</font>
@@ -809,7 +811,7 @@ switch (side player) do
             <br /><font color='#FFA500' face='RobotoCondensedBold'>2.</font> Search and clear possible IED's
             <br /><font color='#FFA500' face='RobotoCondensedBold'>3.</font> Retrieve flight recorder
             <br /><font color='#FFA500' face='RobotoCondensedBold'>4.</font> Destroy insurgent weapons caches
-            <br /><font color='#FFA500' face='RobotoCondensedBold'>5.</font> Assist LNA patrol
+            <br /><font color='#FFA500' face='RobotoCondensedBold'>5.</font> Assist ANP patrol
             <br /><font color='#FFA500' face='RobotoCondensedBold'>6.</font> Recover damaged HMMWV
             <br /><font color='#FFA500' face='RobotoCondensedBold'>7.</font> Terrorist Hunt
             <br /><font color='#FFA500' face='RobotoCondensedBold'>8.</font> Recover lost utility UAV
@@ -840,15 +842,15 @@ switch (side player) do
             <br /><font color='#FFA500' face='RobotoCondensedBold'></font>Some of our recent captures validated intel on a weapons cache located at around GRID 065050.
             <br /><font color='#FFA500' face='RobotoCondensedBold'></font>Unfortunatelly, we have no better intel available. The caches could be anywhere within a 1km radius of that GRID reference. We do know, however, that it is located within a fortified ompound. You can also be sure that the cache will be guarded. Your task is to locate and destroy the weapon caches.
             <br /></font>
-            <br /><font color='#FFA500' size='15' face='RobotoCondensed'>5. Assist LNA patrol (see briefing slides in game)</font>
+            <br /><font color='#FFA500' size='15' face='RobotoCondensed'>5. Assist ANP patrol (see briefing slides in game)</font>
             <font face='RobotoCondensedLight'>
-            <br /><font color='#FFA500' face='RobotoCondensedBold'></font>The LNA contacted us not too long ago that one of their patrols got caught up in a firefight in Bahad (GRID 043069), North of the AO.
-            <br /><font color='#FFA500' face='RobotoCondensedBold'></font>LNA is low on staff and they asked us to move there and investigate. They are not our forces so it is your call if you wanna see what's going on up there. Might also be a good chance to tell their commander to step up their operations in the area and increase those patrols. Seems like they like to just sit around at their camp all day long.
+            <br /><font color='#FFA500' face='RobotoCondensedBold'></font>The ANP contacted us not too long ago that one of their patrols got caught up in a firefight in Bahad (GRID 043069), North of the AO.
+            <br /><font color='#FFA500' face='RobotoCondensedBold'></font>ANP is low on staff and they asked us to move there and investigate. They are not our forces so it is your call if you wanna see what's going on up there. Might also be a good chance to tell their commander to step up their operations in the area and increase those patrols. Seems like they like to just sit around at their camp all day long.
             <br /></font>
             <br /><font color='#FFA500' size='15' face='RobotoCondensed'>6. Recover damaged HMMWV (see briefing slides in game)</font>
             <font face='RobotoCondensedLight'>
-            <br /><font color='#FFA500' face='RobotoCondensedBold'></font>One of the LNA HMMWV's was badly damaged in a recent attack just East of CP Charlie (GRID 056054).
-            <br /><font color='#FFA500' face='RobotoCondensedBold'></font>Since the LNA has no means to recover the vehicle themselfes, it is on us to help them out and recover their lost asset. We have yet to make an assessment of its state, the LNA keeps telling us different stories about the damage. Suggest you bring everything you can to repair it and assume the worst (in terms of damage to the vehicle). Once retrieved bring the assets back to the LNA checkpoint.
+            <br /><font color='#FFA500' face='RobotoCondensedBold'></font>One of the ANA HMMWV's was badly damaged in a recent attack just East of CP Charlie (GRID 056054).
+            <br /><font color='#FFA500' face='RobotoCondensedBold'></font>Since the ANA has no means to recover the vehicle themselfes, it is on us to help them out and recover their lost asset. We have yet to make an assessment of its state, the ANA keeps telling us different stories about the damage. Suggest you bring everything you can to repair it and assume the worst (in terms of damage to the vehicle). Once retrieved bring the assets back to the ANA checkpoint.
             <br /></font>
             <br /><font color='#FFA500' size='15' face='RobotoCondensed'>7. Terrorist Hunt (see briefing slides in game)</font>
             <font face='RobotoCondensedLight'>
@@ -892,7 +894,7 @@ switch (side player) do
             <br /><font color='#FFA500' size='15' face='RobotoCondensed'>-------------------------</font>
             <font face='RobotoCondensedLight'>
             <br /><font color='#FFA500' face='RobotoCondensedBold'>1.</font> <font face='RobotoCondensedBold'>Higher's Mission and Intent:</font> Stabilize the area, show presence and rule out enemy fighters.
-            <br /><font color='#FFA500' face='RobotoCondensedBold'>2.</font> <font face='RobotoCondensedBold'>Adjacent Units:</font> Possible ground and air patrols in the AO. We also have LNA operating in the area.
+            <br /><font color='#FFA500' face='RobotoCondensedBold'>2.</font> <font face='RobotoCondensedBold'>Adjacent Units:</font> Possible ground and air patrols in the AO. We also have ANA/ANP operating in the area.
             <br /><font color='#FFA500' face='RobotoCondensedBold'>3.</font> <font face='RobotoCondensedBold'>Supporting:</font> Air units for support and CAS aswell as a Recce and FST team with a mortar team on station at FOB North. A EOD team is also on station to help clear roads.
             <br /></font>
             <br /><font color='#FFA500' size='15' face='RobotoCondensed'>---------------------------------------</font>
@@ -1082,10 +1084,10 @@ player createDiaryRecord ["Diary",["Future plans","
             <br /><font color='#FFA500' size='15' face='RobotoCondensed'>---------------------------------------</font>
             <font face='RobotoCondensedLight'>
             <br /><font color='#FFA500' face='RobotoCondensedBold'></font>Following features are not working at the moment and will be implemented in a future update:
-            <br /><font color='#FFA500' face='RobotoCondensedBold'>></font> More objectives are being worked on/ optimization of the existing ones.
+            <br /><font color='#FFA500' face='RobotoCondensedBold'>></font> More objectives are being worked on/ optimization or randomization of the existing ones.
             <br /><font color='#FFA500' face='RobotoCondensedBold'>></font> A retrans feature and static radios would serve the mission well and if ACRE releases these, they will be implemented. For now, radio transmission might be complicated due to the terrain. If this turns out to be a major issue, signal loss will temporarily be turned off.
             <br />
-            <br /><font color='#FFA500' face='RobotoCondensedBold'>></font> Feedback is welcome and appreciated. Author can be contacted on the unitedoperations.net forums. AAR's or other public posts on the mentioned site will also attract the authors attention. If you think that the mission is missing something that would make it more enjoyable, contact the author.
+            <br /><font color='#FFA500' face='RobotoCondensedBold'>></font> Feedback is welcome and appreciated. Author can be contacted on the unitedoperations.net forums. AAR's or other public posts on the mentioned site will also attract the authors attention. If you think that the mission is missing something that would make it more enjoyable, contact the author or visit the github page.
             <br />
 <br />"]];
 player createDiaryRecord ["Diary",["!MISSION INFO!*","
@@ -1146,6 +1148,18 @@ player createDiaryRecord ["Diary",["!MISSION INFO!*","
             <br /><font color='#FFA500' face='RobotoCondensedBold'>></font> Toolkits are needed to repair after a specific damage value is reached.
             <br /><font color='#FFA500' face='RobotoCondensedBold'>></font> Rearming is done by caliber type and might take some time.
             <br /><font color='#FFA500' face='RobotoCondensedBold'>></font> ACE pylon feature is enabled on the FARP to prepare the Apache for armament. Before being able to rearm the Apache for the first time, a Engineer (Pilots) needs to use the ACE interaction on it while on the FARP and while having a toolkit equipped.
+            <br /></font>
+            <br /><font color='#FFA500' size='15' face='RobotoCondensed'>-------------------------</font>
+            <br /><font color='#FFA500' size='15' face='RobotoCondensed'>ACE Field Rations</font>
+            <br /><font color='#FFA500' size='15' face='RobotoCondensed'>-------------------------</font>
+            <font face='RobotoCondensedLight'>
+            <br /><font color='#FFA500' face='RobotoCondensedBold'></font>Some of these settings might be overwritten by server side settings!
+            <br /><font color='#FFA500' face='RobotoCondensedBold'>></font> ACE Field Rations are enabled.
+            <br /><font color='#FFA500' face='RobotoCondensedBold'>></font> Thirst is set to 1 hr, hunger to 2 hrs.
+            <br /><font color='#FFA500' face='RobotoCondensedBold'>></font> Players spawn with a basic field ration in their kit.
+            <br /><font color='#FFA500' face='RobotoCondensedBold'>></font> Additional water is provided in any vehicle.
+            <br /><font color='#FFA500' face='RobotoCondensedBold'>></font> Food and water are placed in all FOB's and camps (Blue cargo container, small cardboards and big water canisters).
+            <br /><font color='#FFA500' face='RobotoCondensedBold'>></font> Logistic compound features loadable day packs (small cardboards) and a large, loadable (3CB Logistics) blue cargo container with a huge supply of water and food.
             <br /></font>
             <br /><font color='#FFA500' size='15' face='RobotoCondensed'>-------</font>
             <br /><font color='#FFA500' size='15' face='RobotoCondensed'>MISC</font>

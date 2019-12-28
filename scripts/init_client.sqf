@@ -71,6 +71,7 @@ if (!isServer && isNull player) then {
 // Things to be executed by everyone go below here
 [] execVM "scripts\client_side\addaction_init.sqf";
 [] execVM "scripts\killerchair.sqf";
+[] execVM "scripts\client_side\uav_feed.sqf";
 
 
 // ***************************** //

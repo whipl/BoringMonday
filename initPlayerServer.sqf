@@ -27,7 +27,7 @@ if ((paramsArray select 2) == 1) then {
     {
         _x addCuratorEditableObjects [allMissionObjects "Man", true];
         _x addCuratorEditableObjects [allMissionObjects "Car", true];
-        _x addCuratorAddons ["JO_Insurgent","A3_Modules_F_Curator_Misc","ace_explosives","A3_Structures_F_Wrecks","UK3CB_BAF_Units_MTP"];
+        _x addCuratorAddons ["UK3CB_Factions_ANA","UK3CB_Factions_ANP","UK3CB_Factions_TKM","A3_Modules_F_Curator_Misc","ace_explosives","A3_Structures_F_Wrecks","UK3CB_BAF_Units_MTP"];
     } forEach allCurators;
 
 };

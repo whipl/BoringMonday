@@ -1,144 +1,144 @@
 //Loadouts called with: [this,"side_class","unit_class"] call tb3_fLoadout;
 class TB3_Gear {
     class WEST {
-    /* ******************** */
-    /* British Armed Forces */
-    /* ******************** */
-    // Base loadouts
-    class BAF_RIFLE_BASE {
-        weapons[] = {"UK3CB_BAF_L85A2","UK3CB_BAF_L131A1"};
-        priKit[] = {"RKSL_optic_LDS","UK3CB_BAF_SFFH"};
-        secKit[] = {"UK3CB_BAF_Flashlight_L131A1","UK3CB_BAF_9_17Rnd"};
-        
-        assignedItems[] = {"ItemMap","ItemCompass","ItemWatch"};
-        
-        headgear[] = {"UK3CB_BAF_H_Mk7_Camo_E"};
-        goggles[] = {};
-        
-        uniform[] = {"UK3CB_BAF_U_CombatUniform_MTP"};
-            uniformContents[] = {
-                {"ACRE_PRC343",1},
-                {"ACE_EarPlugs",1},
-                {"ACE_MapTools",1},
-                {"ACE_Canteen",1},
-                {"Chemlight_green",1},      // IFAK
-                {"ACE_fieldDressing",4},    // IFAK
-                {"ACE_elasticBandage",4},   // IFAK
-                {"ACE_packingBandage",3},   // IFAK
-                {"ACE_quikclot",3},         // IFAK
-                {"ACE_morphine",1},         // IFAK
-                {"ACE_tourniquet",1}        // IFAK
-            };
+        /* ******************** */
+        /* British Armed Forces */
+        /* ******************** */
+        // Base loadouts
+        class BAF_RIFLE_BASE {
+            weapons[] = {"UK3CB_BAF_L85A2","UK3CB_BAF_L131A1"};
+            priKit[] = {"RKSL_optic_LDS","UK3CB_BAF_SFFH"};
+            secKit[] = {"UK3CB_BAF_Flashlight_L131A1","UK3CB_BAF_9_17Rnd"};
+            
+            assignedItems[] = {"ItemMap","ItemCompass","ItemWatch"};
+            
+            headgear[] = {"UK3CB_BAF_H_Mk7_Camo_E"};
+            goggles[] = {};
+            
+            uniform[] = {"UK3CB_BAF_U_CombatUniform_MTP"};
+                uniformContents[] = {
+                    {"ACRE_PRC343",1},
+                    {"ACE_EarPlugs",1},
+                    {"ACE_MapTools",1},
+                    {"ACE_Canteen",1},
+                    {"Chemlight_green",1},      // IFAK
+                    {"ACE_fieldDressing",4},    // IFAK
+                    {"ACE_elasticBandage",4},   // IFAK
+                    {"ACE_packingBandage",3},   // IFAK
+                    {"ACE_quikclot",3},         // IFAK
+                    {"ACE_morphine",1},         // IFAK
+                    {"ACE_tourniquet",1}        // IFAK
+                };
 
-        vest[] = {"UK3CB_BAF_V_Osprey_Rifleman_C"};
-            vestContents[] = {
-                {"UK3CB_BAF_H_Beret_PWRR",1},
-                {"UK3CB_BAF_HMNVS",1},
-                {"ACE_IR_Strobe_Item",1},
-                {"ACE_CableTie",1},
-                {"UK3CB_BAF_556_30Rnd",6},
-                {"UK3CB_BAF_556_30Rnd_T",1},
-                {"UK3CB_BAF_9_17Rnd",2},
-                {"rhs_mag_m67",2},
-                {"rhs_mag_an_m8hc",1}             // Orange for leaders, white for soldiers
-            };
+            vest[] = {"UK3CB_BAF_V_Osprey_Rifleman_C"};
+                vestContents[] = {
+                    {"UK3CB_BAF_H_Beret_PWRR",1},
+                    {"UK3CB_BAF_HMNVS",1},
+                    {"ACE_IR_Strobe_Item",1},
+                    {"ACE_CableTie",1},
+                    {"UK3CB_BAF_556_30Rnd",6},
+                    {"UK3CB_BAF_556_30Rnd_T",1},
+                    {"UK3CB_BAF_9_17Rnd",2},
+                    {"rhs_mag_m67",2},
+                    {"rhs_mag_an_m8hc",1}             // Orange for leaders, white for soldiers
+                };
 
-        backpack[] = {"UK3CB_BAF_B_Bergen_MTP_Rifleman_L_D", 1};
-            backpackContents[] = {
-                {"UK3CB_BAF_G_Tactical_Orange",1}, // Different color for different units
-                {"ACE_Sandbag_empty",1},
-                {"UK3CB_BAF_556_30Rnd",3},
-                {"UK3CB_BAF_556_30Rnd_T",1},
-                {"UK3CB_BAF_556_100Rnd",1},
-                {"UK3CB_BAF_556_100Rnd_T",1},
-                {"rhs_mag_m67",2},
-                {"rhs_mag_an_m8hc",2},
-                {"rhs_mag_m18_green",1},
-                {"rhs_mag_m18_red",1},
-                {"Chemlight_green",2},
-                {"Chemlight_red",2},
-                {"Chemlight_yellow",1},
-                {"ACE_HandFlare_Red",1},
-                {"ACE_HandFlare_Green",1}
-            };
+            backpack[] = {"UK3CB_BAF_B_Bergen_MTP_Rifleman_L_D", 1};
+                backpackContents[] = {
+                    {"UK3CB_BAF_G_Tactical_Orange",1}, // Different color for different units
+                    {"ACE_Sandbag_empty",1},
+                    {"UK3CB_BAF_556_30Rnd",3},
+                    {"UK3CB_BAF_556_30Rnd_T",1},
+                    {"UK3CB_BAF_556_100Rnd",1},
+                    {"UK3CB_BAF_556_100Rnd_T",1},
+                    {"rhs_mag_m67",2},
+                    {"rhs_mag_an_m8hc",2},
+                    {"rhs_mag_m18_green",1},
+                    {"rhs_mag_m18_red",1},
+                    {"Chemlight_green",2},
+                    {"Chemlight_red",2},
+                    {"Chemlight_yellow",1},
+                    {"ACE_HandFlare_Red",1},
+                    {"ACE_HandFlare_Green",1}
+                };
 
-        magazines[] = {}; items[] = {};
-    };
-    // FOB personal
-    class BAF_FOB_MC {
-        weapons[] = {"UK3CB_BAF_L131A1"};
-        priKit[] = {};
-        secKit[] = {"UK3CB_BAF_Flashlight_L131A1","UK3CB_BAF_9_17Rnd"};
+            magazines[] = {}; items[] = {};
+        };
+        // FOB personal
+        class BAF_FOB_MC {
+            weapons[] = {"UK3CB_BAF_L131A1"};
+            priKit[] = {};
+            secKit[] = {"UK3CB_BAF_Flashlight_L131A1","UK3CB_BAF_9_17Rnd"};
 
-        assignedItems[] = {"ItemMap","ItemCompass","ItemWatch"};
+            assignedItems[] = {"ItemMap","ItemCompass","ItemWatch"};
 
-        headgear[] = {"UK3CB_BAF_H_Beret_PWRR"};
-        goggles[] = {};
+            headgear[] = {"UK3CB_BAF_H_Beret_PWRR"};
+            goggles[] = {};
 
-        uniform[] = {"UK3CB_BAF_U_CombatUniform_MTP_TShirt"};
-            uniformContents[] = {
-                {"ACE_EarPlugs",1},
-                {"ACE_MapTools",1},
-                {"ACE_Canteen",1},
-                {"Chemlight_green",1},      // IFAK
-                {"ACE_fieldDressing",4},    // IFAK
-                {"ACE_elasticBandage",4},   // IFAK
-                {"ACE_packingBandage",3},   // IFAK
-                {"ACE_quikclot",3},         // IFAK
-                {"ACE_morphine",1},         // IFAK
-                {"ACE_tourniquet",1}        // IFAK
-            };
+            uniform[] = {"UK3CB_BAF_U_CombatUniform_MTP_TShirt"};
+                uniformContents[] = {
+                    {"ACE_EarPlugs",1},
+                    {"ACE_MapTools",1},
+                    {"ACE_Canteen",1},
+                    {"Chemlight_green",1},      // IFAK
+                    {"ACE_fieldDressing",4},    // IFAK
+                    {"ACE_elasticBandage",4},   // IFAK
+                    {"ACE_packingBandage",3},   // IFAK
+                    {"ACE_quikclot",3},         // IFAK
+                    {"ACE_morphine",1},         // IFAK
+                    {"ACE_tourniquet",1}        // IFAK
+                };
 
-        vest[] = {"UK3CB_BAF_V_Osprey_Holster"};
-            vestContents[] = {
-                {"UK3CB_BAF_9_17Rnd",1},
-                {"ACRE_PRC148",1},     // Not for all units
-                {"ACRE_PRC152",1}     // Not for all units
-            };
+            vest[] = {"UK3CB_BAF_V_Osprey_Holster"};
+                vestContents[] = {
+                    {"UK3CB_BAF_9_17Rnd",1},
+                    {"ACRE_PRC148",1},     // Not for all units
+                    {"ACRE_PRC152",1}     // Not for all units
+                };
 
-        backpack[] = {};
-            backpackContents[] = {
-            };
+            backpack[] = {};
+                backpackContents[] = {
+                };
 
-        magazines[] = {}; items[] = {};
-    };
-    class BAF_FOB_RTO {
-        weapons[] = {"UK3CB_BAF_L131A1"};
-        priKit[] = {};
-        secKit[] = {"UK3CB_BAF_Flashlight_L131A1","UK3CB_BAF_9_17Rnd"};
+            magazines[] = {}; items[] = {};
+        };
+        class BAF_FOB_RTO {
+            weapons[] = {"UK3CB_BAF_L131A1"};
+            priKit[] = {};
+            secKit[] = {"UK3CB_BAF_Flashlight_L131A1","UK3CB_BAF_9_17Rnd"};
 
-        assignedItems[] = {"ItemMap","ItemCompass","ItemWatch"};
+            assignedItems[] = {"ItemMap","ItemCompass","ItemWatch"};
 
-        headgear[] = {"UK3CB_BAF_H_Earphone"};
-        goggles[] = {};
+            headgear[] = {"UK3CB_BAF_H_Earphone"};
+            goggles[] = {};
 
-        uniform[] = {"UK3CB_BAF_U_CombatUniform_MTP_TShirt"};
-            uniformContents[] = {
-                {"ACE_EarPlugs",1},
-                {"ACE_MapTools",1},
-                {"ACE_Canteen",1},
-                {"Chemlight_green",1},      // IFAK
-                {"ACE_fieldDressing",4},    // IFAK
-                {"ACE_elasticBandage",4},   // IFAK
-                {"ACE_packingBandage",3},   // IFAK
-                {"ACE_quikclot",3},         // IFAK
-                {"ACE_morphine",1},         // IFAK
-                {"ACE_tourniquet",1}        // IFAK
-            };
+            uniform[] = {"UK3CB_BAF_U_CombatUniform_MTP_TShirt"};
+                uniformContents[] = {
+                    {"ACE_EarPlugs",1},
+                    {"ACE_MapTools",1},
+                    {"ACE_Canteen",1},
+                    {"Chemlight_green",1},      // IFAK
+                    {"ACE_fieldDressing",4},    // IFAK
+                    {"ACE_elasticBandage",4},   // IFAK
+                    {"ACE_packingBandage",3},   // IFAK
+                    {"ACE_quikclot",3},         // IFAK
+                    {"ACE_morphine",1},         // IFAK
+                    {"ACE_tourniquet",1}        // IFAK
+                };
 
-        vest[] = {"UK3CB_BAF_V_Osprey_Holster"};
-            vestContents[] = {
-                {"UK3CB_BAF_9_17Rnd",1},
-                {"ACRE_PRC148",1},     // Not for all units
-                {"ACRE_PRC152",1}     // Not for all units
-            };
+            vest[] = {"UK3CB_BAF_V_Osprey_Holster"};
+                vestContents[] = {
+                    {"UK3CB_BAF_9_17Rnd",1},
+                    {"ACRE_PRC148",1},     // Not for all units
+                    {"ACRE_PRC152",1}     // Not for all units
+                };
 
-        backpack[] = {};
-            backpackContents[] = {
-            };
+            backpack[] = {};
+                backpackContents[] = {
+                };
 
-        magazines[] = {}; items[] = {};
-    };
+            magazines[] = {}; items[] = {};
+        };
         // PWRR Platoon HQ
         class BAF_PWRR_PL {
             weapons[] = {"UK3CB_BAF_L85A2_EMAG","UK3CB_BAF_L131A1","ACE_Vector"};
@@ -2085,6 +2085,7 @@ class TB3_Gear {
                 {"ACE_Kestrel4500",1},
                 {"ACE_DAGR",1},
                 {"ACE_HuntIR_monitor",1},
+                {"B_UavTerminal",1},
                 {"ACE_Flashlight_MX991",1},
                 {"ACE_WaterBottle",2},
                 {"Chemlight_green",1},      // First Aid Vehicle
@@ -2280,6 +2281,43 @@ class TB3_Gear {
                 {"UK3CB_BAF_B_Bergen_MTP_Rifleman_L_D",1}
             };
         };
+        class BAF_MRAP_ARMED_HMG_CARGO {
+            vehCargoWeapons[] = {
+                {"UK3CB_BAF_AT4_CS_AT_Launcher",2}
+            };
+            vehCargoMagazines[] = {
+                {"UK3CB_BAF_127_100Rnd",8},
+                {"UK3CB_BAF_762_200Rnd",5},
+                {"UK3CB_BAF_556_30Rnd",40},
+                {"UK3CB_BAF_556_30Rnd_T",5},
+                {"UK3CB_BAF_556_200Rnd",10},
+                {"UK3CB_BAF_762_100Rnd_T",5},
+                {"UK3CB_BAF_762_L42A1_20Rnd",20},
+                {"UK3CB_BAF_762_L42A1_20Rnd_T",5},
+                {"rhs_mag_an_m8hc",15},
+                {"rhs_mag_m67",10},
+                {"ACE_HandFlare_Red",4},
+                {"ACE_HandFlare_Yellow",4}
+            };
+            vehCargoItems[] = {
+                {"ACE_wirecutter",1},
+                {"ACE_Sandbag_empty",20},
+                {"ACE_WaterBottle",2},
+                {"Chemlight_green",1},      // First Aid Vehicle
+                {"ACE_fieldDressing",8},    // First Aid Vehicle
+                {"ACE_elasticBandage",8},   // First Aid Vehicle
+                {"ACE_packingBandage",5},   // First Aid Vehicle
+                {"ACE_quikclot",5},         // First Aid Vehicle
+                {"ACE_morphine",5},         // First Aid Vehicle
+                {"ACE_epinephrine",3},      // First Aid Vehicle
+                {"ACE_tourniquet",3},       // First Aid Vehicle
+                {"ACE_personalAidKit",3},   // First Aid Vehicle
+                {"ACE_bodyBag",2}           // First Aid Vehicle
+            };
+            vehCargoRucks[] = {
+                {"UK3CB_BAF_B_Bergen_MTP_Rifleman_L_D",2}
+            };
+        };
         class BAF_MRAP_ARMED_GMG {
             vehCargoWeapons[] = {
                 {"UK3CB_BAF_AT4_CS_AT_Launcher",1}
@@ -2353,12 +2391,101 @@ class TB3_Gear {
                 {"UK3CB_BAF_B_Bergen_MTP_Rifleman_L_D",1}
             };
         };
-        class BAF_BULLDOG_ARMED_HMG {
+        class BAF_MRAP_ARMED_GPMG_CARGO {
             vehCargoWeapons[] = {
                 {"UK3CB_BAF_AT4_CS_AT_Launcher",2}
             };
             vehCargoMagazines[] = {
-                {"UK3CB_BAF_127_100Rnd",10},
+                {"UK3CB_BAF_762_200Rnd",10},
+                {"UK3CB_BAF_127_100Rnd",5},
+                {"UK3CB_BAF_556_30Rnd",40},
+                {"UK3CB_BAF_556_30Rnd_T",5},
+                {"UK3CB_BAF_556_200Rnd",10},
+                {"UK3CB_BAF_762_100Rnd_T",5},
+                {"UK3CB_BAF_762_L42A1_20Rnd",20},
+                {"UK3CB_BAF_762_L42A1_20Rnd_T",5},
+                {"rhs_mag_an_m8hc",15},
+                {"rhs_mag_m67",10},
+                {"ACE_HandFlare_Red",4},
+                {"ACE_HandFlare_Yellow",4}
+            };
+            vehCargoItems[] = {
+                {"ACE_wirecutter",1},
+                {"ACE_Sandbag_empty",20},
+                {"ACE_WaterBottle",2},
+                {"Chemlight_green",1},      // First Aid Vehicle
+                {"ACE_fieldDressing",8},    // First Aid Vehicle
+                {"ACE_elasticBandage",8},   // First Aid Vehicle
+                {"ACE_packingBandage",5},   // First Aid Vehicle
+                {"ACE_quikclot",5},         // First Aid Vehicle
+                {"ACE_morphine",5},         // First Aid Vehicle
+                {"ACE_epinephrine",3},      // First Aid Vehicle
+                {"ACE_tourniquet",3},       // First Aid Vehicle
+                {"ACE_personalAidKit",3},   // First Aid Vehicle
+                {"ACE_bodyBag",2}           // First Aid Vehicle
+            };
+            vehCargoRucks[] = {
+                {"UK3CB_BAF_B_Bergen_MTP_Rifleman_L_D",2}
+            };
+        };
+        class BAF_MRAP_ARMED_GPMG_HQ {
+            vehCargoWeapons[] = {
+                {"UK3CB_BAF_AT4_CS_AT_Launcher",1}
+            };
+            vehCargoMagazines[] = {
+                {"UK3CB_BAF_762_200Rnd",5},
+                {"UK3CB_BAF_556_30Rnd",20},
+                {"UK3CB_BAF_556_30Rnd_T",5},
+                {"UK3CB_BAF_556_200Rnd",5},
+                {"UK3CB_BAF_762_100Rnd_T",5},
+                {"UK3CB_BAF_762_L42A1_20Rnd",10},
+                {"UK3CB_BAF_762_L42A1_20Rnd_T",5},
+                {"ACE_HuntIR_M203",10},
+                {"rhs_mag_an_m8hc",10},
+                {"rhs_mag_m67",5},
+                {"Laserbatteries",5},
+                {"DemoCharge_Remote_Mag",5},
+                {"ACE_HandFlare_Red",2},
+                {"ACE_HandFlare_Yellow",2}
+            };
+            vehCargoItems[] = {
+                {"ACE_wirecutter",1},
+                {"ACRE_VHF30108SPIKE",1},
+                {"ACRE_VHF30108MAST",1},
+                {"ACE_SpottingScope",2},
+                {"ACE_Tripod",1},
+                {"ACE_Sandbag_empty",20},
+                {"ACRE_PRC148",1},
+                {"ACE_Clacker",1},
+                {"ACE_DefusalKit",1},
+                {"ACE_RangeTable_82mm",1},
+                {"ACE_Kestrel4500",1},
+                {"ACE_DAGR",1},
+                {"ACE_HuntIR_monitor",1},
+                {"B_UavTerminal",1},
+                {"ACE_Flashlight_MX991",1},
+                {"ACE_WaterBottle",2},
+                {"Chemlight_green",1},      // First Aid Vehicle
+                {"ACE_fieldDressing",8},    // First Aid Vehicle
+                {"ACE_elasticBandage",8},   // First Aid Vehicle
+                {"ACE_packingBandage",5},   // First Aid Vehicle
+                {"ACE_quikclot",5},         // First Aid Vehicle
+                {"ACE_morphine",5},         // First Aid Vehicle
+                {"ACE_epinephrine",3},      // First Aid Vehicle
+                {"ACE_tourniquet",3},       // First Aid Vehicle
+                {"ACE_personalAidKit",3},   // First Aid Vehicle
+                {"ACE_bodyBag",2}           // First Aid Vehicle
+            };
+            vehCargoRucks[] = {
+                {"ACE_TacticalLadder_Pack",1},
+                {"UK3CB_BAF_B_Bergen_MTP_Rifleman_L_D",1}
+            };
+        };
+        class BAF_BULLDOG_ARMED_GPMG {
+            vehCargoWeapons[] = {
+                {"UK3CB_BAF_AT4_CS_AT_Launcher",2}
+            };
+            vehCargoMagazines[] = {
                 {"UK3CB_BAF_762_200Rnd",4},
                 {"UK3CB_BAF_556_30Rnd",20},
                 {"UK3CB_BAF_556_30Rnd_T",5},
@@ -2798,6 +2925,7 @@ class TB3_Gear {
                 
             vest[] = {"V_Pocketed_coyote_F"};
                 vestContents[] = {
+                    {"ACE_WaterBottle",2},
                     {"ACE_fieldDressing",1},
                     {"ACE_elasticBandage",1},
                     {"ACE_packingBandage",1}
@@ -2824,6 +2952,7 @@ class TB3_Gear {
             uniform[] = {"JO_KP_BG"};
                 uniformContents[] = {
                     {"ACRE_PRC152",1},
+                    {"ACE_WaterBottle",2},
                     {"ACE_fieldDressing",1},
                     {"ACE_elasticBandage",1},
                     {"ACE_packingBandage",1}
