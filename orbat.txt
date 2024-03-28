@@ -1,0 +1,340 @@
+!!!
+Open with Notepad++ for best results and an orderly alignment
+!!!
+
+======================================================================================
+Deutsch-Franzoesische Brigade (German-French Brigade)
+  Jaegerbataillon 292 (Light Infantry Battalion 292)
+    Zweite Kompanie, Jaegerkompanie (Second Company, Rifle Company)
+      Zweiter Jaegerzug (Second Infantry Platoon)
+      Schwerer Jaegerzug (Weapons Platoon)
+    Fuenfte Kompanie, Schwere Jaegerkompanie (Fifth Company, Fire Support Company)
+      Obsolete: Erster Moerserzug (First Mortar Platoon)
+      Aufklaerungszug (Recon Platoon)
+  Artilleriebataillon 295 (Artillery Battalion 295)
+    Zweite Batterie, Rohrartilleriebatterie (Second Battery, Self-propelled Artillery)
+Division Schnelle Kr�fte (Rapid Forces Division)
+  Divisionstruppen Division Schnelle Kraefte
+    Kampfhubschrauberregiment 36
+      Fliegende Abteilung 361
+    Transporthubschrauberregiment 10
+      Fliegende Abteilung 101
+  Kommando Spezialkr�fte (Special Forces Command)
+======================================================================================
+
+
+
+=================
+= FOB Personell =
+=================
+// group_id: "BW_FOB"
+FOB East | Base Commander
+FOB East | UAV Operator
+FOB East | RTO
+
+
+
+====================
+= Medic Attachment =
+====================
+// group_id: "BW_MEDIC"
+Medical Attachment | Combat Medic (TL)
+Medical Attachment | Combat Medic
+
+
+
+==========
+= Pilots =
+==========
+// group_id: "BW_AIR_ATK"
+Air Attachment | Pilot
+Air Attachment | Co-Pilot / Gunner
+
+// group_id: "BW_AIR_TRS"
+Air Attachment | Pilot
+Air Attachment | Co-Pilot
+Air Attachment | Crew-Chief
+Air Attachment | Door-Gunner
+
+
+
+==================
+= Special Forces =
+==================
+// group_id: "BW_KSK"
+KSK | Team Leader
+KSK | Medical Sergeant
+KSK | Weapon Sergeant
+KSK | Engineer Sergeant
+
+
+
+=================
+= Battalion 295 = // Artillery
+=================
+
+1st Platoon - 4 Guns
+====================
+// group_id: "BW_295_2COY_1PLT_HQ"
+2ndBattery | 1stPlatoon | FDC
+2ndBattery | 1stPlatoon | RTO
+2ndBattery | 1stPlatoon | Security
+2ndBattery | 1stPlatoon | Security
+
+// group_id: "BW_295_2COY_1PLT_G1"
+1stPlatoon | Gun 1 | Commander
+1stPlatoon | Gun 1 | Gunner
+1stPlatoon | Gun 1 | Driver (Loader)
+
+// group_id: "BW_295_2COY_1PLT_G2"
+1stPlatoon | Gun 2 | Commander
+1stPlatoon | Gun 2 | Gunner
+1stPlatoon | Gun 2 | Driver (Loader)
+
+// group_id: "BW_295_2COY_1PLT_G3"
+1stPlatoon | Gun 3 | Commander
+1stPlatoon | Gun 3 | Gunner
+1stPlatoon | Gun 3 | Driver (Loader)
+
+
+
+=================
+= Battalion 292 = // Light Infantry, 2nd and 5th Company only
+=================
+
+===========
+2nd Company
+===========
+
+Company HQ
+==========
+// group_id: "BW_292_2COY_HQ"
+Battalion 292 | 2ndCompany | Company Commander
+Battalion 292 | 2ndCompany | Company XO
+Battalion 292 | 2ndCompany | Company First Sergeant
+Battalion 292 | 2ndCompany | Company RTO
+Battalion 292 | 2ndCompany | Security Rifleman
+Battalion 292 | 2ndCompany | Security Rifleman
+
+
+
+Company Supply & Maintenance
+============================
+// group_id: "BW_292_2COY_M"
+2ndCompany | Maintenance | Maintenance Specialist (TL)
+2ndCompany | Maintenance | Maintenance Specialist
+2ndCompany | Maintenance | Maintenance Specialist
+
+// group_id: "BW_292_2COY_S"
+2ndCompany | Supply | Supply Specialist (TL)
+2ndCompany | Supply | Supply Specialist
+2ndCompany | Supply | Supply Specialist
+
+
+
+1st Platoon - Rifle Platoon				            2nd Platoon - Rifle Platoon				            3rd Platoon - Rifle Platoon			            	4th Platoon - Weapons Platoon
+===========================				            ===========================			            	===========================		        	    	=============================
+// group_id: "BW_292_2COY_1PLT_HQ"                  // group_id: "BW_292_2COY_2PLT_HQ"                  // group_id: "BW_292_2COY_3PLT_HQ"                  // group_id: "BW_292_2COY_4PLT_HQ"
+2ndCompany | 1stPlatoon | Platoon Leader	    	2ndCompany | 2ndPlatoon | Platoon Leader	    	2ndCompany | 3rdPlatoon | Platoon Leader	    	2ndCompany | 4thPlatoon | Platoon Leader
+2ndCompany | 1stPlatoon | Platoon Sergeant	    	2ndCompany | 2ndPlatoon | Platoon Sergeant	    	2ndCompany | 3rdPlatoon | Platoon Sergeant	    	2ndCompany | 4thPlatoon | Platoon Sergeant
+2ndCompany | 1stPlatoon | Platoon RTO		    	2ndCompany | 2ndPlatoon | Platoon RTO		    	2ndCompany | 3rdPlatoon | Platoon RTO		    	2ndCompany | 4thPlatoon | Platoon RTO
+2ndCompany | 1stPlatoon | Rifleman			        2ndCompany | 2ndPlatoon | Rifleman		    	    2ndCompany | 3rdPlatoon | Rifleman				    
+2ndCompany | 1stPlatoon | Rifleman			        2ndCompany | 2ndPlatoon | Rifleman		        	2ndCompany | 3rdPlatoon | Rifleman		        	// group_id: "BW_292_2COY_4PLT_1SQD"
+2ndCompany | 1stPlatoon | Rifleman			        2ndCompany | 2ndPlatoon | Rifleman			        2ndCompany | 3rdPlatoon | Rifleman		    	    4thPlatoon | 1stSquad | Squad Leader
+/* */                                                                                                                                                       4thPlatoon | 1stSquad | Ass. Squad Leader (2IC)
+/* group_id: "BW_292_2COY_1PLT_1SQD"                // group_id: "BW_292_2COY_2PLT_1SQD"                // group_id: "BW_292_2COY_3PLT_1SQD" */             4thPlatoon | 1stSquad | Team 1 | Gunner
+1stPlatoon | 1stSquad | Squad Leader		    	2ndPlatoon | 1stSquad | Squad Leader			    3rdPlatoon | 1stSquad | Squad Leader		    	4thPlatoon | 1stSquad | Team 1 | Assistant
+1stPlatoon | 1stSquad | Ass. Squad Leader   		2ndPlatoon | 1stSquad | Ass. Squad Leader   		3rdPlatoon | 1stSquad | Ass. Squad Leader   		4thPlatoon | 1stSquad | Team 2 | Gunner
+1stPlatoon | 1stSquad | Grenadier			        2ndPlatoon | 1stSquad | Grenadier		        	3rdPlatoon | 1stSquad | Grenadier		        	4thPlatoon | 1stSquad | Team 2 | Assistant
+1stPlatoon | 1stSquad | Grenadier		         	2ndPlatoon | 1stSquad | Grenadier		        	3rdPlatoon | 1stSquad | Grenadier		        	4thPlatoon | 1stSquad | Team 3 | Gunner
+1stPlatoon | 1stSquad | Automatic Rifleman	    	2ndPlatoon | 1stSquad | Automatic Rifleman	    	3rdPlatoon | 1stSquad | Automatic Rifleman	    	4thPlatoon | 1stSquad | Team 3 | Assistant
+1stPlatoon | 1stSquad | Automatic Rifleman	    	2ndPlatoon | 1stSquad | Automatic Rifleman	    	3rdPlatoon | 1stSquad | Automatic Rifleman	    	4thPlatoon | 1stSquad | Ammo Bearer
+1stPlatoon | 1stSquad | Assistant AR		    	2ndPlatoon | 1stSquad | Assistant AR		    	3rdPlatoon | 1stSquad | Assistant AR			    
+1stPlatoon | 1stSquad | Assistant AR		    	2ndPlatoon | 1stSquad | Assistant AR		    	3rdPlatoon | 1stSquad | Assistant AR	    		// group_id: "BW_292_2COY_4PLT_2SQD"
+1stPlatoon | 1stSquad | Rifleman		          	2ndPlatoon | 1stSquad | Rifleman		        	3rdPlatoon | 1stSquad | Rifleman		        	4thPlatoon | 2ndSquad | Squad leader
+1stPlatoon | 1stSquad | Rifleman		          	2ndPlatoon | 1stSquad | Rifleman		        	3rdPlatoon | 1stSquad | Rifleman		        	4thPlatoon | 2ndSquad | Ass. Squad Leader (2IC)
+/* */                                                                                                                                                       4thPlatoon | 2ndSquad | Team 1 | Sniper
+/* group_id: "BW_292_2COY_1PLT_2SQD"                // group_id: "BW_292_2COY_2PLT_2SQD"                // group_id: "BW_292_2COY_3PLT_2SQD" */             4thPlatoon | 2ndSquad | Team 1 | Spotter
+1stPlatoon | 2ndSquad | Squad Leader		    	2ndPlatoon | 2ndSquad | Squad Leader		    	3rdPlatoon | 2ndSquad | Squad Leader		    	4thPlatoon | 2ndSquad | Team 2 | Sniper
+1stPlatoon | 2ndSquad | Ass. Squad Leader   		2ndPlatoon | 2ndSquad | Ass. Squad Leader   		3rdPlatoon | 2ndSquad | Ass. Squad Leader   		4thPlatoon | 2ndSquad | Team 2 | Spotter
+1stPlatoon | 2ndSquad | Grenadier		        	2ndPlatoon | 2ndSquad | Grenadier		        	3rdPlatoon | 2ndSquad | Grenadier		        	4thPlatoon | 2ndSquad | Team 3 | Sniper
+1stPlatoon | 2ndSquad | Grenadier		        	2ndPlatoon | 2ndSquad | Grenadier		        	3rdPlatoon | 2ndSquad | Grenadier		        	4thPlatoon | 2ndSquad | Team 3 | Spotter
+1stPlatoon | 2ndSquad | Automatic Rifleman	    	2ndPlatoon | 2ndSquad | Automatic Rifleman	    	3rdPlatoon | 2ndSquad | Automatic Rifleman	    	4thPlatoon | 2ndSquad | Ammo Bearer
+1stPlatoon | 2ndSquad | Automatic Rifleman	    	2ndPlatoon | 2ndSquad | Automatic Rifleman	    	3rdPlatoon | 2ndSquad | Automatic Rifleman
+1stPlatoon | 2ndSquad | Assistant AR		    	2ndPlatoon | 2ndSquad | Assistant AR			    3rdPlatoon | 2ndSquad | Assistant AR
+1stPlatoon | 2ndSquad | Assistant AR		    	2ndPlatoon | 2ndSquad | Assistant AR			    3rdPlatoon | 2ndSquad | Assistant AR
+1stPlatoon | 2ndSquad | Rifleman		          	2ndPlatoon | 2ndSquad | Rifleman		        	3rdPlatoon | 2ndSquad | Rifleman
+1stPlatoon | 2ndSquad | Rifleman		        	2ndPlatoon | 2ndSquad | Rifleman		        	3rdPlatoon | 2ndSquad | Rifleman
+
+// group_id: "BW_292_2COY_1PLT_3SQD"                // group_id: "BW_292_2COY_2PLT_3SQD"                // group_id: "BW_292_2COY_3PLT_3SQD"
+1stPlatoon | 3rdSquad | Squad Leader		    	2ndPlatoon | 3rdSquad | Squad Leader	    		3rdPlatoon | 3rdSquad | Squad Leader
+1stPlatoon | 3rdSquad | Ass. Squad Leader   		2ndPlatoon | 3rdSquad | Ass. Squad Leader   		3rdPlatoon | 3rdSquad | Ass. Squad Leader
+1stPlatoon | 3rdSquad | Grenadier		        	2ndPlatoon | 3rdSquad | Grenadier		        	3rdPlatoon | 3rdSquad | Grenadier
+1stPlatoon | 3rdSquad | Grenadier		        	2ndPlatoon | 3rdSquad | Grenadier		        	3rdPlatoon | 3rdSquad | Grenadier
+1stPlatoon | 3rdSquad | Automatic Rifleman	    	2ndPlatoon | 3rdSquad | Automatic Rifleman	    	3rdPlatoon | 3rdSquad | Automatic Rifleman
+1stPlatoon | 3rdSquad | Automatic Rifleman	    	2ndPlatoon | 3rdSquad | Automatic Rifleman	    	3rdPlatoon | 3rdSquad | Automatic Rifleman
+1stPlatoon | 3rdSquad | Assistant AR		    	2ndPlatoon | 3rdSquad | Assistant AR		    	3rdPlatoon | 3rdSquad | Assistant AR
+1stPlatoon | 3rdSquad | Assistant AR	    		2ndPlatoon | 3rdSquad | Assistant AR	   	    	3rdPlatoon | 3rdSquad | Assistant AR
+1stPlatoon | 3rdSquad | Rifleman		        	2ndPlatoon | 3rdSquad | Rifleman		        	3rdPlatoon | 3rdSquad | Rifleman
+1stPlatoon | 3rdSquad | Rifleman		        	2ndPlatoon | 3rdSquad | Rifleman		        	3rdPlatoon | 3rdSquad | Rifleman
+
+
+
+===========
+5th Company
+===========
+
+Recon Platoon
+=============
+// group_id: "BW_292_5COY_RPLT_HQ"
+5thCompany | Recon Platoon | Platoon Leader
+5thCompany | Recon Platoon | Platoon RTO
+5thCompany | Recon Platoon | Rifleman
+
+// group_id: "BW_292_5COY_RPLT_T1"
+Recon Platoon | Team 1 | Team Leader
+Recon Platoon | Team 1 | Rifleman
+Recon Platoon | Team 1 | Rifleman
+
+// group_id: "BW_292_5COY_RPLT_T2"
+Recon Platoon | Team 2 | Team Leader
+Recon Platoon | Team 2 | Rifleman
+Recon Platoon | Team 2 | Rifleman
+
+// group_id: "BW_292_5COY_RPLT_T3"
+Recon Platoon | Team 3 | Team Leader
+Recon Platoon | Team 3 | Rifleman
+Recon Platoon | Team 3 | Rifleman
+
+// group_id: "BW_292_5COY_RPLT_T4"
+Recon Platoon | Team 4 | Team Leader
+Recon Platoon | Team 4 | Rifleman
+Recon Platoon | Team 4 | Rifleman
+
+// group_id: "BW_292_5COY_RPLT_T5"
+Recon Platoon | Team 5 | Team Leader
+Recon Platoon | Team 5 | Rifleman
+Recon Platoon | Team 5 | Rifleman
+
+// group_id: "BW_292_5COY_RPLT_ES1"
+Recon Platoon | Exploration & Surveillance Team 1 | Team Leader
+Recon Platoon | Exploration & Surveillance Team 1 | Rifleman
+
+// group_id: "BW_292_5COY_RPLT_ES2"
+Recon Platoon | Exploration & Surveillance Team 2 | Team Leader
+Recon Platoon | Exploration & Surveillance Team 2 | Rifleman
+
+
+
+JFST Teams
+==========
+// group_id: "BW_292_5COY_JFST"
+5thCompany | JFST | Team 1 | Sr. Forward Air Controller (SL)
+5thCompany | JFST | Team 1 | Forward Air Controller
+5thCompany | JFST | Team 1 | Driver (CLS)
+5thCompany | JFST | Team 2 | Sr. Forward Observer (TL)
+5thCompany | JFST | Team 2 | Forward Observer
+5thCompany | JFST | Team 2 | Driver
+
+
+
+Mortar Platoon // Probably no longer used (lack of Wolf vehicles and 120mm Mortar tubes)
+==============
+// group_id: "BW_292_5COY_MPLT_HQ"
+5thCompany | Mortar Platoon | Platoon Leader
+5thCompany | Mortar Platoon | Platoon Sergeant
+
+// group_id: "BW_292_5COY_MPLT_FDC"
+5thCompany | Mortar Platoon | Fire Control Team (FDC)
+5thCompany | Mortar Platoon | Fire Control Team (RTO)
+
+// group_id: "BW_292_5COY_MPLT_P"
+5thCompany | Mortar Platoon | Preparation Team
+5thCompany | Mortar Platoon | Preparation Team
+
+// group_id: "BW_292_5COY_MPLT_FO1"
+5thCompany | Mortar Platoon | Team 1 | Forward Observer
+5thCompany | Mortar Platoon | Team 1 | FO Assistant
+
+// group_id: "BW_292_5COY_MPLT_FO2"
+5thCompany | Mortar Platoon | Team 2 | Forward Observer
+5thCompany | Mortar Platoon | Team 2 | FO Assistant
+
+// group_id: "BW_292_5COY_MPLT_1SQD"
+1stPlatoon | 1stSquad | Gun 1 | Mortar Crew Commander (SL)
+1stPlatoon | 1stSquad | Gun 1 | Mortar Crew Gunner
+1stPlatoon | 1stSquad | Gun 1 | Mortar Crew Loader
+1stPlatoon | 1stSquad | Gun 1 | Mortar Crew Assistant
+1stPlatoon | 1stSquad | Gun 2 | Mortar Crew Commander
+1stPlatoon | 1stSquad | Gun 2 | Mortar Crew Gunner
+1stPlatoon | 1stSquad | Gun 2 | Mortar Crew Loader
+1stPlatoon | 1stSquad | Gun 2 | Mortar Crew Assistant
+
+// group_id: "BW_292_5COY_MPLT_2SQD"
+1stPlatoon | 2ndSquad | Gun 1 | Mortar Crew Commander (SL)
+1stPlatoon | 2ndSquad | Gun 1 | Mortar Crew Gunner
+1stPlatoon | 2ndSquad | Gun 1 | Mortar Crew Loader
+1stPlatoon | 2ndSquad | Gun 1 | Mortar Crew Assistant
+1stPlatoon | 2ndSquad | Gun 2 | Mortar Crew Commander
+1stPlatoon | 2ndSquad | Gun 2 | Mortar Crew Gunner
+1stPlatoon | 2ndSquad | Gun 2 | Mortar Crew Loader
+1stPlatoon | 2ndSquad | Gun 2 | Mortar Crew Assistant
+
+// group_id: "BW_292_5COY_MPLT_3SQD"
+1stPlatoon | 3rdSquad | Gun 1 | Mortar Crew Commander (SL)
+1stPlatoon | 3rdSquad | Gun 1 | Mortar Crew Gunner
+1stPlatoon | 3rdSquad | Gun 1 | Mortar Crew Loader
+1stPlatoon | 3rdSquad | Gun 1 | Mortar Crew Assistant
+1stPlatoon | 3rdSquad | Gun 2 | Mortar Crew Commander
+1stPlatoon | 3rdSquad | Gun 2 | Mortar Crew Gunner
+1stPlatoon | 3rdSquad | Gun 2 | Mortar Crew Loader
+1stPlatoon | 3rdSquad | Gun 2 | Mortar Crew Assistant
+
+
+
+
+
+
+
+
+// FOB East
+Tactical Operation Center  --  Zulu-Main
+UAV Operator               --  Zulu-Uniform
+// 292 - 2nd Company
+2./292 F�hrungsgruppe  (2nd Coy, Headquarters)      --  Hunter
+2./292 VersorgungsTr   (2nd Coy, Supply Group)      --  Hunter
+2./292 TechnischerTr   (2nd Coy, Maintenance Gr.)   --  Hunter
+2./292 I.   Zg         (2nd Coy, 1st Plt)           --  Hunter-A
+2./292 I.   Zg 1. Grp  (2nd Coy, 1st Plt, 1st Sqd)  --  Hunter-A-1
+2./292 I.   Zg 2. Grp  (2nd Coy, 1st Plt, 2nd Sqd)  --  Hunter-A-2
+2./292 I.   Zg 1. Grp  (2nd Coy, 1st Plt, 3rd Sqd)  --  Hunter-A-3
+2./292 II.  Zg         (2nd Coy, 2nd Plt)           --  Hunter-B
+2./292 II.  Zg 1. Grp  (2nd Coy, 2nd Plt, 1st Sqd)  --  Hunter-B-1 
+2./292 II.  Zg 2. Grp  (2nd Coy, 2nd Plt, 2nd Sqd)  --  Hunter-B-2 
+2./292 II.  Zg 3. Grp  (2nd Coy, 2nd Plt, 3rd Sqd)  --  Hunter-B-3
+2./292 III. Zg         (2nd Coy, 3rd Plt)           --  Hunter-C
+2./292 III. Zg 1. Grp  (2nd Coy, 3rd Plt, 1st Sqd)  --  Hunter-C-1 
+2./292 III. Zg 2. Grp  (2nd Coy, 3rd Plt, 2nd Sqd)  --  Hunter-C-2 
+2./292 III. Zg 3. Grp  (2nd Coy, 3rd Plt, 3rd Sqd)  --  Hunter-C-3
+2./292 IV.  Zg         (2nd Coy, 4th Plt)           --  Hunter-D
+2./292 IV.  Zg 1. Grp  (2nd Coy, 4th Plt, 1st Sqd)  --  Hunter-D-1
+2./292 IV.  Zg 2. Grp  (2nd Coy, 4th Plt, 2nd Sqd)  --  Hunter-D-2
+// 292 - 5th Company
+5./292 Joint Fires Support Team (5th Coy, JFST)       --  Foxhound-J
+5./292 Aufkl�rungszug  (5th Coy, Recon Platoon)       --  Foxhound-D
+5./292 AufklZg 1. Grp  (5th Coy, Recon Plt, 1st Sqd)  --  Foxhound-D-1
+5./292 AufklZg 2. Grp  (5th Coy, Recon Plt, 2nd Sqd)  --  Foxhound-D-2
+5./292 AufklZg 3. Grp  (5th Coy, Recon Plt, 3rd Sqd)  --  Foxhound-D-3
+5./292 AufklZg 4. Grp  (5th Coy, Recon Plt, 4th Sqd)  --  Foxhound-D-4
+5./292 AufklZg 5. Grp  (5th Coy, Recon Plt, 5th Sqd)  --  Foxhound-D-5
+// 295 - 2nd Battery, 1st
+2./295 F�hrungstrupp (2nd Btry, Headquarters/FDC)  --  Poacher
+2./295 I. Zg 1. Gun  (2nd Btry, 1st Plt, 1st Gun)  --  Poacher-A-1
+2./295 I. Zg 2. Gun  (2nd Btry, 1st Plt, 2nd Gun)  --  Poacher-A-2
+2./295 I. Zg 3. Gun  (2nd Btry, 1st Plt, 3rd Gun)  --  Poacher-A-3
+//Pilots
+UH Tiger  --  Eagle-24
+NH-90     --  Jay-1
+// KSK
+Kommando Spezialkr�fte (Special Forces) Team 1  --  Yankee-1
+Kommando Spezialkr�fte (Special Forces) Team 2  --  Yankee-2

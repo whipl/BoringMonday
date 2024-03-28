@@ -1,0 +1,194 @@
+/* ==================================================== */
+/* ===      Script for Arma3 by Whiplash.           === */
+/* ===  This script is open-source and can be used. === */
+/* ===  See comments below for how-to-use.          === */
+/* ==================================================== */
+
+// Description.ext script. Define parameters, mission headers and other classes here.
+
+/* ==================================================== */
+
+
+
+
+
+class Header
+{
+  gameType = Patrol;
+  minPlayers = 1;
+  maxPlayers = 48;
+};
+
+// Mission loading screen
+author = "Whiplash";
+OnLoadName = "Boring Monday GAF v4.0";
+OnLoadMission = "Another boring day is about to begin for the forces in Fata region...";
+loadScreen = "images\img_loadscreenBW.jpg";
+
+// Mission overview (Mission selection screen)
+briefingName = "CO48 Boring Monday GAF HC ZEUS v4.0";
+overviewText = "Seeder Mission: Counter insurgency operations in Fata region. Stay at base, move out to any of the objectives or make up your own objective. [Expected playtime: 4h (min. players: 1) / AFM / JIP / Respawn / GM]";
+//overviewPicture = "images\img_overview.jpg";
+
+// Intro settings
+onLoadIntro = "Another boring day is about to begin for the forces in Fata region..."; // "" for no message
+onLoadIntroTime = 1; // 0 hidden
+onLoadMissionTime = 1; // 0 hidden
+
+// Respawn settings (EDEN Editor)
+respawn = 3;
+respawndelay = 60;
+respawnDialog = 0;
+respawnButton = 0;
+respawnOnStart = -1;
+respawnTemplates[] = {"Counter"};
+
+// Misc. settings
+disabledAI = 1;
+showGPS = 0;
+enableDebugConsole = 0; // 0 - only editor; 1 - SP and hosts/ admins; 2 - everyone
+forceRotorLibSimulation = 0; // Enable/ disable AFM  0 - options based; 1 - force enable; 2 - force disable
+disableChannels[] = {1,2,4,5}; // Disable chat channels: 0 - Global; 1 - Side; 2 - Command; 3 - Group; 4 - Vehicle; 5 - Direct; 6 - System
+
+// Debriefing settings
+debriefing = 1;
+
+class CfgDebriefing
+{  
+    class END1
+    {
+        title = "MISSION COMPLETED";
+        subtitle = "We made it through another boring Monday...";
+//      description = "Seems like we made it through yet another boring Monday.";
+        pictureBackground = "images\img_overviewN.jpg";
+        picture = "";
+        pictureColor[] = {};
+    };
+};
+
+
+/* ****************************** */
+/* include for TB3 Loudout Script */
+/* ****************************** */
+#include "tb3\loadouts.hpp"
+class CfgFunctions {
+	class tb3 {
+        #include "tb3\f\gear\CfgFunctions.hpp"
+	};
+};
+
+//#include "tb3\loadouts.hpp"
+//class Extended_PreInit_EventHandlers {
+//    class tb3 {
+//        init = "call ('tb3\preInit.sqf' call SLX_XEH_COMPILE)";
+//    };
+//};
+
+//class CfgSettings {
+//    class CBA {
+//        class Caching {
+//            compile = 0;
+//            xeh = 0;
+//            functions = 0;
+//        };
+//    };
+//};
+/* ****************************** */
+
+
+// Parameters available
+class Params
+{   
+    
+    class Time
+    {
+        title = "H-Hour";  // (paramsArray select 0)
+        values[] = {0,1,2,3,4};
+        texts[] = {"0330 (Dawn)","0600 (Morning)","1200 (Default)","1800 (Dusk)","2230 (Night)"};
+        default = 2;
+    };
+    class MHQ  // (paramsArray select 1)
+    {
+        title = "MHQ availability";
+        values[] = {0,1};
+        texts[] = {"Disabled (Default)","Enabled"};
+        default = 0;
+    };
+    class Zeus  // (paramsArray select 2)
+    {
+        title = "Zeus availability";
+        values[] = {0,1};
+        texts[] = {"Disabled (Default)","Enabled"};
+        default = 0;
+    };
+    class Alive  // (paramsArray select 3)
+    {
+        title = "ALiVE Modules";
+        values[] = {0,1};
+        texts[] = {"Disabled (Default)","Enabled"};
+        default = 0;
+    };
+//    class Merlin  // (paramsArray select 4)
+//    {
+//        title = "Helicopter Variant";
+//        values[] = {0,1,2,3};
+//        texts[] = {"Transport (Default)","Armed","CSAR","Cargo"};
+//        default = 0;
+//    };
+
+};
+
+
+// Adding custom unit insignias (arm patches) to be used in the mission
+class CfgUnitInsignia
+{
+    class TL
+    {
+        displayName = "Team Leader patch"; // Name displayed in Arsenal
+        author = "teriyaki"; // Author displayed in Arsenal
+        texture = "textures\patches\TL.paa"; // Image path
+//      textureVehicle = ""; // Does nothing currently, reserved for future use
+    };
+    class SL
+    {
+        displayName = "Squad Leader patch"; // Name displayed in Arsenal
+        author = "teriyaki"; // Author displayed in Arsenal
+        texture = "textures\patches\SQL.paa"; // Image path
+//      textureVehicle = ""; // Does nothing currently, reserved for future use
+    };
+    class ISAF
+	{
+		displayName = "ISAF patch"; // Name displayed in Arsenal
+		author = ""; // Author displayed in Arsenal
+		texture = "textures\patches\ISAF.paa"; // Image path
+//		textureVehicle = ""; // Does nothing currently, reserved for future use
+	};
+    class MEDIC
+	{
+		displayName = "Medic patch"; // Name displayed in Arsenal
+		author = ""; // Author displayed in Arsenal
+		texture = "textures\patches\MED_TAN.paa"; // Image path
+//		textureVehicle = ""; // Does nothing currently, reserved for future use
+	};
+    class JTAC
+    {
+        displayName = "JTAC patch"; // Name displayed in Arsenal
+        author = "teriyaki"; // Author displayed in Arsenal
+        texture = "textures\patches\JTAC.paa"; // Image path
+//      textureVehicle = ""; // Does nothing currently, reserved for future use
+    };
+    class EOD
+    {
+        displayName = "EOD patch"; // Name displayed in Arsenal
+        author = "teriyaki"; // Author displayed in Arsenal
+        texture = "textures\patches\EOD.paa"; // Image path
+//      textureVehicle = ""; // Does nothing currently, reserved for future use
+    };
+    class KSK
+	{
+		displayName = "KSK patch"; // Name displayed in Arsenal
+		author = "teriyaki"; // Author displayed in Arsenal
+		texture = "textures\patches\KSK.paa"; // Image path
+//		textureVehicle = ""; // Does nothing currently, reserved for future use
+	};
+};

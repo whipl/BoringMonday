@@ -1,6 +1,5 @@
-
 <p align="center">
-    <img src="https://github.com/whipl/BoringMonday/blob/master/images/img_overviewN.jpg" height="300" width="600">
+    <img src="https://github.com/whipl/BoringMonday/blob/master/images/img_overviewBW.jpg" height="300" width="600">
 </p>
 <p align="center">
     <a href="https://github.com/whipl/BoringMonday/releases/latest">
@@ -46,4 +45,6 @@ Objectives are custom made and exist from start on. Thus, there is no spawning o
 TBD
 
 ## Notes
-TBD
+A full list of needed mods will be provided eventually...
+
+Featured mods: ACE, ACRE, 3CB BAF, ...

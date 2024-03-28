@@ -1,0 +1,69 @@
+/* =================================================== */
+/* === Changelog file for Arma3 by Whiplash.       === */
+/* === This script is open-source and can be used. === */
+/* === See comments below for how-to-use.          === */
+/* =================================================== */
+
+// This file is used to keep track of the changelog.
+
+/* =================================================== */
+
+
+
+
+
+v4.0
+=====
+#added too much to keep track of all; major changes listed belowv
+#changed varios aspects of the mission including ALIVE Module and new ORBAT (GAF)
+
+3.2
+=====
+#added ACEX Field Rations
+#added 3CB Trucks and logistics
+#changed setting to a fictive Afghanistan and changed LNA to ANP/ANA
+
+v3.1
+=====
+#added notes to briefing regarding new ACE pylon system to utilize the Apache
+#added ITC items for air/ground
+#added new 3CB vehicles (MRAP and UGV)
+#changed COMSIG
+
+v2.0/3.0
+=====
+#added too much to keep track of all; major changes listed below
+
+#added Zeus support for Game Mastering setup (param selection)
+#added Opfor/Civ slots for Zeus control
+#added enemy behaviour now based on time of day
+#added more detailed briefing, in-game heat map with suspected enemy occupations
+#added low probability for heavy enemy asset wihin the AO
+#added prepared different OP's for mortars
+#added couple of random enemies
+#added small adjustments to FOB
+#fixed recce section organization
+#fixed removed possibility for players to "steal" equipment from LNA
+#changed ace stamina settings
+#changed some init script for better MP compatibility
+#changed briefing to reflect additions
+#changed few smaller bugs and module settings
+
+v1.2
+=====
+#added more Snatch Landrovers instead of basic ones
+#fixed wrong laser designator in vehicle gear
+#changed JTAC gear
+
+v1.1
+=====
+#added full ACE3 mortar support
+#added ability to drag around the mhq box
+#added ammo for static guns at FOB North
+#fixed some errors in briefing
+#fixed wrongly assigned gear
+#removed lonely chopper outside the FOB
+
+v1.0
+=====
+#initial release
