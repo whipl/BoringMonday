@@ -21,7 +21,7 @@ The mission focuses highly on infantry gameplay and features a infantry rifle pl
 So far, a version is available featuring the German Armed Forces (earlier versions featured British Armed Forces). Other factions can easily be integrated into the mission but requires quite some adjustments to classnames and the overall mission.sqf.
 
 ## Objectives
-Objectives are custom made and exist from start on. Thus, there is no spawning of enemies and no suddenly appearing structures. All missions are are randomized to some degree and thus gameplay experience can vary greatly. Missions are merely a suggestion to the players. You are basically free to do whatever you feel like doing as long as you follow the briefing guidelines.
+Objectives are custom made and exist from start on. Thus, there is no spawning of enemies and no suddenly appearing structures. All missions are randomized to some degree and thus gameplay experience can vary greatly. Missions are merely a suggestion to the players. You are basically free to do whatever you feel like doing as long as you follow the briefing guidelines.
 
 **Current objectives include:**
 * Retrieving a flight recorder
