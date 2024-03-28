@@ -4,7 +4,7 @@
 </p>
 <p align="center">
     <a href="https://github.com/whipl/BoringMonday/releases/latest">
-        <img src="https://img.shields.io/badge/Release-v3-red.svg" alt="Release">
+        <img src="https://img.shields.io/badge/Release-v4-red.svg" alt="Release">
     </a>
     <a href="https://github.com/whipl/BoringMonday/issues">
         <img src="https://img.shields.io/github/issues-raw/whipl/BoringMonday.svg?label=Issues" alt="FC2 Issues">
