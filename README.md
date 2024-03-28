@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="https://github.com/whipl/BoringMonday/blob/master/images/img_overviewBW.jpg" height="300" width="600">
+    <img src="https://github.com/whipl/BoringMonday/blob/main/images/img_overviewBW.jpg" height="300" width="600">
 </p>
 <p align="center">
     <a href="https://github.com/whipl/BoringMonday/releases/latest">
